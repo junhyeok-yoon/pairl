@@ -1,0 +1,7 @@
+jax 0.12.0.1 devices [CpuDevice(id=0)] x64 True
+start 0: mean cost 17.370263 (recorded 17.370263), max relative difference per episode 0.00e+00, episodes above 1e-6: 0, time incl. compile 15.8 s
+start 2: mean cost 6.421145 (recorded 6.421145), max relative difference per episode 0.00e+00, episodes above 1e-6: 0, time incl. compile 15.8 s
+start 3: mean cost 4.681267 (recorded 4.681267), max relative difference per episode 0.00e+00, episodes above 1e-6: 0, time incl. compile 7.4 s
+REPRODUCTION EXACT (<=1e-6) worst 0.00e+00
+bench n=64: first call 7.5 s (compile), then 7.79 s per batch, 1498 decisions/s, 8.2 episodes/s
+bench n=256: first call 36.0 s (compile), then 26.99 s per batch, 1716 decisions/s, 9.5 episodes/s

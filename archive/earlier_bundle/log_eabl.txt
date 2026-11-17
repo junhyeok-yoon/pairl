@@ -1,0 +1,6 @@
+A no features 0.463 1.048 0.0 | narrow seed0 0.26 0.97 | oracle 0.347 1.119
+B no features 0.178 0.812 0.0 | narrow seed0 0.13 0.745 | oracle 0.149 0.856
+C no features 0.466 1.907 0.0 | narrow seed0 0.329 1.911 | oracle 0.365 2.119
+D no features 0.434 1.802 0.0 | narrow seed0 0.236 1.671 | oracle 0.232 1.878
+E no features 0.507 2.475 0.0 | narrow seed0 0.439 2.514 | oracle 0.398 2.544
+done

@@ -1,0 +1,4 @@
+ii: finite 40/40; cases where D ever increases by >1e-6*D0: 0; max relative step increase -3.37e-12; tail |e| median 2.42e-03, worst 3.49e-02; rms e over run median 0.015
+l1: finite 40/40; cases where D ever increases by >1e-6*D0: 40; max relative step increase 3.71e-01; tail |e| median 5.52e-03, worst 6.83e-02; rms e over run median 0.034
+ii with measurement noise 0.02: finite 40/40; rms e (last 10 s) median 0.008, worst 0.038
+l1 with measurement noise 0.02: finite 40/40; rms e (last 10 s) median 0.009, worst 0.060

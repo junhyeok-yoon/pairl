@@ -1,0 +1,8 @@
+check: replay_loss (role weighting) and variant all (0.8684651626157541, 0.8684651626157541)
+5 all res 1.886 loss 0.707 175 s
+10 all res 2.291 loss 0.708 332 s
+15 all res 1.257 loss 0.730 487 s
+20 all res 2.092 loss 0.712 643 s
+25 all res 1.964 loss 0.772 793 s
+30 all res 2.111 loss 0.760 942 s
+{"all": [30, 2.1110716708935504]}

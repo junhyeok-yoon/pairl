@@ -1,0 +1,51 @@
+{
+ "timestamp": "20261115021024",
+ "purpose": "cause of the slow reaching in attempt 2 (E1 relzero, E2 cost13, E3 init1_rev14, E4 init1_rev13, E5 init1_rev14_vnorm)",
+ "plan": "records/l2_attempt2_plan.md",
+ "plan_part": "decisive experiments E1-E5",
+ "plan_sha256_prefix": "967b28c9",
+ "plan_hash_file": "records/l2_attempt2_plan.hash",
+ "code": {
+  "source": "20261115_v3_brain_hand_full_bundle.zip, code/stageb (bundle v3)",
+  "git_commit": null,
+  "note": "run before the repository existed; code state = the bundle (records/migration_map.tsv maps it to the repository)"
+ },
+ "commands": [
+  "see the plan (bundle layout: run from code/stageb, run directories ../../records/<run>)"
+ ],
+ "platform": {
+  "device": "CPU",
+  "machine": "cloud container, 2 cores (Xeon 2.1 GHz), 7 GB RAM; records/port_check_cloud.log"
+ },
+ "runs": {
+  "l2_diag_relzero": {
+   "start": "2026-11-15T02:10:24",
+   "end": "2026-11-15T02:35:43"
+  },
+  "l2_diag_cost13": {
+   "start": "2026-11-15T02:10:24",
+   "end": "2026-11-15T02:35:45"
+  },
+  "l2_diag_init1_rev14": {
+   "start": "2026-11-15T02:37:23",
+   "end": "2026-11-15T03:03:30"
+  },
+  "l2_diag_init1_rev13": {
+   "start": "2026-11-15T02:37:23",
+   "end": "2026-11-15T03:03:32"
+  },
+  "l2_diag_init1_rev14_vnorm": {
+   "start": "2026-11-15T03:16:29",
+   "end": "2026-11-15T03:42:12"
+  }
+ },
+ "start": "2026-11-15T02:10:24",
+ "end": "2026-11-15T03:42:12",
+ "status": "complete (40 iterations each)",
+ "key_result": "critic return scale identified (E5)",
+ "moved": {
+  "date": "2026-11-16",
+  "note": "moved unchanged; contents not modified",
+  "from": "data/runs/<run>"
+ }
+}

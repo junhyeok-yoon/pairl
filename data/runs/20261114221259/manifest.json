@@ -1,0 +1,47 @@
+{
+ "timestamp": "20261114221259",
+ "purpose": "L2 attempt 1 (revision 13); the two aborted runs are the observations behind amendments 1 and 2",
+ "plan": "records/l2_attempt1_plan.md",
+ "plan_part": "configuration, amendments 1-3 and the diagnosis at 100",
+ "plan_sha256_prefix": "f0bbb550",
+ "plan_hash_file": "records/l2_attempt1_plan.hash",
+ "code": {
+  "source": "20261115_v3_brain_hand_full_bundle.zip, code/stageb (bundle v3)",
+  "git_commit": null,
+  "note": "run before the repository existed; code state = the bundle (records/migration_map.tsv maps it to the repository)"
+ },
+ "commands": [
+  "see the plan (bundle layout: run from code/stageb, run directories ../../records/<run>)"
+ ],
+ "platform": {
+  "device": "CPU",
+  "machine": "cloud container, 2 cores (Xeon 2.1 GHz), 7 GB RAM; records/port_check_cloud.log"
+ },
+ "runs": {
+  "l2_attempt1_relgoal_aborted": {
+   "start": "2026-11-14T22:12:59",
+   "end": "2026-11-14T22:23:03"
+  },
+  "l2_attempt1_absgoal_aborted": {
+   "start": "2026-11-14T22:23:22",
+   "end": "2026-11-14T22:33:43"
+  },
+  "l2_attempt1": {
+   "start": "2026-11-14T22:33:52",
+   "end": "2026-11-14T23:17:39"
+  },
+  "l2_attempt1b": {
+   "start": "2026-11-14T23:19:15",
+   "end": "2026-11-14T23:37:37"
+  }
+ },
+ "start": "2026-11-14T22:12:59",
+ "end": "2026-11-14T23:37:37",
+ "status": "complete (stopped at 100 by the diagnosis of the plan)",
+ "key_result": "stopped at 100: cost defect (release incentive) and role-loss attribution defect",
+ "moved": {
+  "date": "2026-11-16",
+  "note": "moved unchanged; contents not modified",
+  "from": "data/runs/<run>"
+ }
+}

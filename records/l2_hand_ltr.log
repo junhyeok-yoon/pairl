@@ -1,0 +1,28 @@
+parallel_run: 8 worker processes, chunk auto, target eval/diagnostics/l2_hand_ltr.py
+check: replay_loss (role weighting) and variant all (0.8004316398707368, 0.8004316398707368)
+5 role: res 1.649 role 0.729 ltr 0.621 | role+tr: res 0.472 role 0.744 ltr 0.208 74 s
+10 role: res 1.658 role 0.701 ltr 0.577 | role+tr: res 0.531 role 0.734 ltr 0.125 143 s
+15 role: res 1.166 role 0.739 ltr 0.582 | role+tr: res 0.492 role 0.777 ltr 0.145 210 s
+20 role: res 1.909 role 0.700 ltr 0.594 | role+tr: res 0.521 role 0.727 ltr 0.148 277 s
+25 role: res 2.076 role 0.752 ltr 0.776 | role+tr: res 0.495 role 0.807 ltr 0.120 346 s
+30 role: res 2.316 role 0.759 ltr 0.658 | role+tr: res 0.631 role 0.798 ltr 0.111 415 s
+RESULT l2_attempt3:140 {"checkpoint": "data/runs/20261115134229/l2_attempt3/params_it0140.pkl", "iters": 30, "lam": 1.0, "pairs_per_episode": 64, "kept_pairs_per_minibatch_mean": 873.4708333333333, "device": "cpu:0", "rule_a": true, "rule_b": true, "seconds": 415, "pass": true}
+parallel_run: 8 worker processes, chunk auto, target eval/diagnostics/l2_hand_ltr.py
+check: replay_loss (role weighting) and variant all (0.905692159275671, 0.905692159275671)
+5 role: res 2.125 role 0.847 ltr 1.028 | role+tr: res 0.553 role 0.917 ltr 0.256 73 s
+10 role: res 2.405 role 0.808 ltr 0.803 | role+tr: res 0.613 role 0.856 ltr 0.134 141 s
+15 role: res 1.564 role 0.814 ltr 0.933 | role+tr: res 0.481 role 0.872 ltr 0.149 209 s
+20 role: res 2.077 role 0.836 ltr 0.777 | role+tr: res 0.550 role 0.888 ltr 0.156 277 s
+25 role: res 2.484 role 0.895 ltr 0.942 | role+tr: res 0.626 role 0.913 ltr 0.128 346 s
+30 role: res 3.021 role 0.788 ltr 0.777 | role+tr: res 0.654 role 0.850 ltr 0.116 414 s
+RESULT l2_pilotO_C:200 {"checkpoint": "data/runs/20261116012508/l2_pilotO_C/params_it0200.pkl", "iters": 30, "lam": 1.0, "pairs_per_episode": 64, "kept_pairs_per_minibatch_mean": 832.4395833333333, "device": "cpu:0", "rule_a": true, "rule_b": true, "seconds": 414, "pass": true}
+parallel_run: 8 worker processes, chunk auto, target eval/diagnostics/l2_hand_ltr.py
+check: replay_loss (role weighting) and variant all (1.1202180247892473, 1.1202180247892473)
+5 role: res 1.927 role 1.003 ltr 1.258 | role+tr: res 0.653 role 1.088 ltr 0.289 73 s
+10 role: res 2.152 role 0.972 ltr 1.191 | role+tr: res 0.639 role 1.065 ltr 0.170 141 s
+15 role: res 1.429 role 0.882 ltr 0.996 | role+tr: res 0.476 role 0.942 ltr 0.177 209 s
+20 role: res 3.118 role 0.990 ltr 1.057 | role+tr: res 0.533 role 1.023 ltr 0.181 277 s
+25 role: res 2.094 role 1.023 ltr 1.206 | role+tr: res 0.599 role 1.074 ltr 0.162 346 s
+30 role: res 2.413 role 0.875 ltr 1.201 | role+tr: res 0.634 role 0.985 ltr 0.145 413 s
+RESULT l2_pilotO_N:200 {"checkpoint": "data/runs/20261116012508/l2_pilotO_N/params_it0200.pkl", "iters": 30, "lam": 1.0, "pairs_per_episode": 64, "kept_pairs_per_minibatch_mean": 778.2416666666667, "device": "cpu:0", "rule_a": true, "rule_b": false, "seconds": 413, "pass": false}
+LTR DONE

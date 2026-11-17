@@ -1,0 +1,253 @@
+{
+ "V5": {
+  "drift": {
+   "1": 7.813991476501997e-06,
+   "2": 5.22009214121793e-07,
+   "4": 3.37201883193603e-08,
+   "16": 1.3500558581087697e-10
+  },
+  "order_median": [
+   3.972318886303925,
+   3.981199223343262
+  ],
+  "order_range": [
+   2.603288834070453,
+   5.740948813947008
+  ]
+ },
+ "V6": {
+  "residual_rel": 1.3818700351391654e-08,
+  "w_act_max": 453.37767028641673,
+  "w_fric_max": 332.57958251519517
+ },
+ "V7": {
+  "force_values_err": 2.8421709430404007e-13,
+  "pointwise_passivity_max": 0.0,
+  "runs": {
+   "2000_2": {
+    "residual_rel": 2.814175705800892e-07,
+    "passivity_excess": 0.0,
+    "fn_max": 53.26059884252027,
+    "contact_frac": 0.48633333333333334,
+    "dq_end_vs_16": 6.338044540310506e-07,
+    "fn_rms_vs_16": 0.00015145639777148915
+   },
+   "2000_4": {
+    "residual_rel": 1.7825539044835637e-08,
+    "passivity_excess": 0.0,
+    "fn_max": 53.261394786582144,
+    "contact_frac": 0.48633333333333334,
+    "dq_end_vs_16": 2.3865305054382446e-07,
+    "fn_rms_vs_16": 5.7807205351918125e-05
+   },
+   "2000_8": {
+    "residual_rel": 1.0280802875684003e-09,
+    "passivity_excess": 0.0,
+    "fn_max": 53.26100065857062,
+    "contact_frac": 0.48633333333333334,
+    "dq_end_vs_16": 8.243491689263749e-08,
+    "fn_rms_vs_16": 1.595548036205406e-05
+   },
+   "2000_16": {
+    "residual_rel": 6.544054187429538e-11,
+    "passivity_excess": 0.0,
+    "fn_max": 53.261197537210485,
+    "contact_frac": 0.48633333333333334
+   },
+   "20000_2": {
+    "residual_rel": 1.3552146499229423e-05,
+    "passivity_excess": 0.0,
+    "fn_max": 147.18507525337944,
+    "contact_frac": 0.478,
+    "dq_end_vs_16": 4.845440918499477e-06,
+    "fn_rms_vs_16": 0.003553442302271523
+   },
+   "20000_4": {
+    "residual_rel": 9.262581395219627e-07,
+    "passivity_excess": 0.0,
+    "fn_max": 147.21402471598054,
+    "contact_frac": 0.478,
+    "dq_end_vs_16": 1.2179143995538766e-06,
+    "fn_rms_vs_16": 0.001008148894486099
+   },
+   "20000_8": {
+    "residual_rel": 5.7827164228685196e-08,
+    "passivity_excess": 0.0,
+    "fn_max": 147.19911441578938,
+    "contact_frac": 0.478,
+    "dq_end_vs_16": 4.546560449236736e-07,
+    "fn_rms_vs_16": 0.0002993282953818631
+   },
+   "20000_16": {
+    "residual_rel": 3.670879156203455e-09,
+    "passivity_excess": 0.0,
+    "fn_max": 147.20666232312726,
+    "contact_frac": 0.478
+   },
+   "200000_2": {
+    "residual_rel": 0.0010509554225690248,
+    "passivity_excess": 0.0,
+    "fn_max": 387.3900193402467,
+    "contact_frac": 0.44033333333333335,
+    "dq_end_vs_16": 0.00011816045239343431,
+    "fn_rms_vs_16": 0.2003132849684381
+   },
+   "200000_4": {
+    "residual_rel": 8.583824612711917e-05,
+    "passivity_excess": 0.0,
+    "fn_max": 388.8309037528912,
+    "contact_frac": 0.44004166666666666,
+    "dq_end_vs_16": 1.6739857484959764e-05,
+    "fn_rms_vs_16": 0.05669305821808092
+   },
+   "200000_8": {
+    "residual_rel": 5.629325415987833e-06,
+    "passivity_excess": 0.0,
+    "fn_max": 389.3271724656609,
+    "contact_frac": 0.440125,
+    "dq_end_vs_16": 2.5671635348611943e-06,
+    "fn_rms_vs_16": 0.015035638253990844
+   },
+   "200000_16": {
+    "residual_rel": 3.1382159160209255e-07,
+    "passivity_excess": 0.0,
+    "fn_max": 389.0981508685544,
+    "contact_frac": 0.4400833333333333
+   }
+  }
+ },
+ "V8": {
+  "truth_table": true,
+  "regrasp_sequence": true,
+  "grasp_point_after_release_err": 0.0,
+  "grasp_energy_jump_err": 6.661338147750939e-16,
+  "com_continuity": 0.0,
+  "release_velocity_change": 0.0,
+  "event_gain_max": -6.106239918146628e-07,
+  "release_ke_err": 1.2434497875801753e-14,
+  "released_com_err": 0.0,
+  "gauge_jump_max": 0.14528154463787452
+ },
+ "V9": {
+  "delay_err": 7.105427357601002e-15,
+  "first_sample_err": 0.0,
+  "contact_torque_max_in_run": 31.461586076980016,
+  "noise_mean": 0.00015487007655122184,
+  "noise_mean_4se": 0.0004412112701784807,
+  "noise_sd_ratio": [
+   1.0107108998777397,
+   1.0102944637542355,
+   1.0083107584377642
+  ],
+  "noise_absmax": 0.15000000000000002,
+  "quant_err": 4.999868870880775e-05,
+  "grid_err": 1.8189894035458565e-12,
+  "attached_rest_err": 0.0,
+  "p_sd_ratio": [
+   0.9990361122856786,
+   1.0004720008221815
+  ]
+ },
+ "V10": {
+  "failures_per_check": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "hard_frac": 0.29833333333333334,
+  "budget_frac": 0.2956666666666667,
+  "tol": 0.025099800796022264,
+  "heavy_frac": 0.5104,
+  "heavy_tol": 0.03
+ },
+ "V11": {
+  "n": 12,
+  "max_err": 1.1102230246251565e-16
+ },
+ "V12": {
+  "batch_vs_single": 7.105427357601002e-15,
+  "rerun_diff": 0.0,
+  "steps_per_s": 42863.16806544877,
+  "compile_s": 8.425705432891846,
+  "float32": {
+   "dtype": "float32",
+   "q_diff_max": 0.12615852480180534,
+   "q_diff_median_final": 6.111067936243053e-06,
+   "fn_diff_rms": 2.46079202134833,
+   "xi_mismatch_steps": 0
+  }
+ },
+ "V13": {
+  "phase_index_ok": true,
+  "xi_change_steps_all_decision": true,
+  "n_xi_changes": 128,
+  "episode_steps_range": [
+   3775,
+   5250
+  ]
+ },
+ "V14": {
+  "all_finite": true,
+  "audit_residual_rel": 3.254360833277261e-08,
+  "grasp_frac": 1.0,
+  "n_over": 0.0,
+  "press_force_err_median": 0.007377432124458216,
+  "press_force_err_max": 5.196608410273631,
+  "hold_pos_err_median": 3.4292994907370538e-06,
+  "fn_peak_max": 53.69306617250904,
+  "n_grasp": [
+   1
+  ],
+  "n_release": [
+   1
+  ],
+  "event_gain_max": -1.0815526252372365e-10
+ },
+ "V16": {
+  "frac_two_grasps_two_releases": 1.0,
+  "n_grasp_values": [
+   2
+  ],
+  "event_gain_max": 8.702142661961571e-16,
+  "com_continuity_max": 1.1739862079479962e-16,
+  "offset_excess_max": -0.0027326798142609555,
+  "audit_residual_rel": 6.847113302509083e-08,
+  "all_finite": true,
+  "dtheta3_median": 0.4014257279586957,
+  "n_over": 0.0
+ },
+ "V17": {
+  "drop_minus_held_max_dev": 5.329070518200751e-15,
+  "n_free": 194734,
+  "side_states": 1346,
+  "side_slope": 6.367568449494874
+ },
+ "V15": {
+  "max_joint_diff": 1.675700200820529e-08
+ },
+ "pass": {
+  "V5": true,
+  "V6": true,
+  "V7": true,
+  "V8": true,
+  "V9": true,
+  "V10": true,
+  "V11": true,
+  "V13": true,
+  "V14": true,
+  "V16": true,
+  "V17": true,
+  "V12": true,
+  "V15": true
+ },
+ "all_pass": true
+}

@@ -1,0 +1,21 @@
+data: 6 batches in 103 s, contact share of valid steps 0.1618
+check: replay_loss (role weighting) and variant all (2.5000111461758316, 2.5000111461758316)
+all 10 res 2.219 loss 1.145 144 s
+all 20 res 2.687 loss 1.087 284 s
+all 30 res 3.243 loss 1.049 427 s
+all 40 res 3.544 loss 1.072 572 s
+all 50 res 2.783 loss 1.088 711 s
+all 60 res 3.691 loss 1.017 845 s
+mask 10 res 3.001 loss 1.231 137 s
+mask 20 res 2.675 loss 1.134 273 s
+mask 30 res 3.535 loss 1.089 412 s
+mask 40 res 3.113 loss 1.094 545 s
+mask 50 res 2.116 loss 1.118 675 s
+mask 60 res 2.637 loss 1.065 801 s
+reset 10 res 2.062 loss 0.964 143 s
+reset 20 res 2.591 loss 0.902 282 s
+reset 30 res 4.011 loss 0.888 421 s
+reset 40 res 3.537 loss 0.892 566 s
+reset 50 res 2.676 loss 0.909 714 s
+reset 60 res 3.095 loss 0.867 863 s
+{"run": "l2_attempt3", "brain_it": 300, "hand_it": 140, "n_batches": 6, "iters": 60, "contact_share": 0.16175325718414887, "check": [2.5000111461758316, 2.5000111461758316], "res_start": 1.356898450215239} {'all': (60, 3.6907616638967427), 'mask': (60, 2.6370958942276674), 'reset': (60, 3.094760935168443)}

@@ -1,0 +1,23 @@
+{
+ "l2_attempt1b:80": {
+  "load_changes_per_episode": 2.015625,
+  "uncalibrated_time_share": 0.0845401447127539,
+  "uncalibrated_loss_share": 0.7769618822356393,
+  "mse_calibrated": 0.22053538800739705,
+  "mse_uncalibrated": 8.319078588168853
+ },
+ "l2_pilot_cost2_grip:130": {
+  "load_changes_per_episode": 1.21875,
+  "uncalibrated_time_share": 0.1420556185162584,
+  "uncalibrated_loss_share": 0.7423750338075505,
+  "mse_calibrated": 1.3856784233930741,
+  "mse_uncalibrated": 24.115628440265933
+ },
+ "l2_pilot_v3:130": {
+  "load_changes_per_episode": 1.25,
+  "uncalibrated_time_share": 0.14670734896696017,
+  "uncalibrated_loss_share": 0.8640347466060008,
+  "mse_calibrated": 0.9891521314814057,
+  "mse_uncalibrated": 36.56053130816601
+ }
+}

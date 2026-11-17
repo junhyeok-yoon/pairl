@@ -1,0 +1,170 @@
+{
+ "l2_attempt2:300": {
+  "phase3_start": {
+   "held_window_episodes": 64,
+   "contact_episodes": 28,
+   "contact_share_of_held_window": 0.25471698113207547,
+   "force_ratio_median_contact": 3.418916229108379,
+   "force_ratio_p90_contact": 7.264390343715654,
+   "hover_episodes": 36,
+   "hover_tip_height_median": -0.06149838160286519,
+   "tip_height_median_held_window": -0.026748855073727096,
+   "lateral_offset_median_held_window": 0.14920920582058975,
+   "releases_phase3": 0,
+   "goal_height_on_force_slope": -0.004062971771080843,
+   "goal_height_on_force_corr": -0.09542203133047727,
+   "n_contact_decisions": 1264
+  },
+  "phase2_start": {
+   "held_start3": 64,
+   "hold_error_median_held": 0.2495988499152629,
+   "goal_tip_to_p_star_end2_median": 0.2557537495773404,
+   "tip_to_p_star_start_median": 0.2571972850444918,
+   "releases_phase2": 0
+  }
+ },
+ "l2_pilotR_A:355": {
+  "phase3_start": {
+   "held_window_episodes": 64,
+   "contact_episodes": 19,
+   "contact_share_of_held_window": 0.18946540880503146,
+   "force_ratio_median_contact": 3.514377799301709,
+   "force_ratio_p90_contact": 5.388873759016825,
+   "hover_episodes": 45,
+   "hover_tip_height_median": -0.058708203327016095,
+   "tip_height_median_held_window": -0.01541148221548587,
+   "lateral_offset_median_held_window": 0.15281358214370636,
+   "releases_phase3": 0,
+   "goal_height_on_force_slope": -0.008275847545792324,
+   "goal_height_on_force_corr": -0.18428161665570358,
+   "n_contact_decisions": 981
+  },
+  "phase2_start": {
+   "held_start3": 64,
+   "hold_error_median_held": 0.23133103612883898,
+   "goal_tip_to_p_star_end2_median": 0.2282521013247555,
+   "tip_to_p_star_start_median": 0.2571972850444918,
+   "releases_phase2": 0
+  }
+ },
+ "l2_pilotR_B:355": {
+  "phase3_start": {
+   "held_window_episodes": 64,
+   "contact_episodes": 14,
+   "contact_share_of_held_window": 0.15880503144654087,
+   "force_ratio_median_contact": 3.461172033971737,
+   "force_ratio_p90_contact": 6.171580503586038,
+   "hover_episodes": 50,
+   "hover_tip_height_median": -0.059553711337734766,
+   "tip_height_median_held_window": -0.03594192510819352,
+   "lateral_offset_median_held_window": 0.15199860277109364,
+   "releases_phase3": 0,
+   "goal_height_on_force_slope": -0.014346222372479967,
+   "goal_height_on_force_corr": -0.28778504748505274,
+   "n_contact_decisions": 699
+  },
+  "phase2_start": {
+   "held_start3": 64,
+   "hold_error_median_held": 0.24704742448936687,
+   "goal_tip_to_p_star_end2_median": 0.24226386330854927,
+   "tip_to_p_star_start_median": 0.2571972850444918,
+   "releases_phase2": 0
+  }
+ },
+ "l2_pilotT_J:100": {
+  "phase3_start": {
+   "held_window_episodes": 64,
+   "contact_episodes": 21,
+   "contact_share_of_held_window": 0.26257861635220126,
+   "force_ratio_median_contact": 1.2777268967478599,
+   "force_ratio_p90_contact": 2.6882709354587666,
+   "hover_episodes": 43,
+   "hover_tip_height_median": 0.028913129732991205,
+   "tip_height_median_held_window": 0.01063537504663993,
+   "lateral_offset_median_held_window": 0.08123480067228378,
+   "releases_phase3": 0,
+   "goal_height_on_force_slope": -0.03461105320588183,
+   "goal_height_on_force_corr": -0.7054648772400604,
+   "n_contact_decisions": 778
+  },
+  "phase2_start": {
+   "held_start3": 64,
+   "hold_error_median_held": 0.14034951237745175,
+   "goal_tip_to_p_star_end2_median": 0.14831018547525587,
+   "tip_to_p_star_start_median": 0.2571972850444918,
+   "releases_phase2": 0
+  }
+ },
+ "l2_pilotT_T:100": {
+  "phase3_start": {
+   "held_window_episodes": 64,
+   "contact_episodes": 10,
+   "contact_share_of_held_window": 0.12657232704402516,
+   "force_ratio_median_contact": 0.7967851886242647,
+   "force_ratio_p90_contact": 1.9954299484706,
+   "hover_episodes": 54,
+   "hover_tip_height_median": 0.06886024296526483,
+   "tip_height_median_held_window": 0.06118241228129957,
+   "lateral_offset_median_held_window": 0.01383270525081981,
+   "releases_phase3": 0,
+   "goal_height_on_force_slope": -0.015094003571454349,
+   "goal_height_on_force_corr": -0.5511836031717181,
+   "n_contact_decisions": 406
+  },
+  "phase2_start": {
+   "held_start3": 64,
+   "hold_error_median_held": 0.06386936700760334,
+   "goal_tip_to_p_star_end2_median": 0.091231132379511,
+   "tip_to_p_star_start_median": 0.2571972850444918,
+   "releases_phase2": 0
+  }
+ },
+ "l2_attempt3:200": {
+  "phase3_start": {
+   "held_window_episodes": 64,
+   "contact_episodes": 26,
+   "contact_share_of_held_window": 0.34355345911949686,
+   "force_ratio_median_contact": 0.845312937194836,
+   "force_ratio_p90_contact": 1.2750895417653076,
+   "hover_episodes": 38,
+   "hover_tip_height_median": 0.04095658132345145,
+   "tip_height_median_held_window": 0.025329872696466332,
+   "lateral_offset_median_held_window": 0.006438194143892045,
+   "releases_phase3": 0,
+   "goal_height_on_force_slope": -0.00913757852202334,
+   "goal_height_on_force_corr": -0.3687628043995987,
+   "n_contact_decisions": 913
+  },
+  "phase2_start": {
+   "held_start3": 64,
+   "hold_error_median_held": 0.029478400320235645,
+   "goal_tip_to_p_star_end2_median": 0.03816205275933299,
+   "tip_to_p_star_start_median": 0.2571972850444918,
+   "releases_phase2": 0
+  }
+ },
+ "l2_attempt3:300": {
+  "phase3_start": {
+   "held_window_episodes": 64,
+   "contact_episodes": 63,
+   "contact_share_of_held_window": 0.9488993710691824,
+   "force_ratio_median_contact": 0.7367184493554286,
+   "force_ratio_p90_contact": 1.5122430682840147,
+   "hover_episodes": 1,
+   "hover_tip_height_median": 0.03786956697339554,
+   "tip_height_median_held_window": -0.0007836997994527459,
+   "lateral_offset_median_held_window": 0.007680572535546187,
+   "releases_phase3": 0,
+   "goal_height_on_force_slope": -0.002582541660061309,
+   "goal_height_on_force_corr": -0.1356553333263968,
+   "n_contact_decisions": 2233
+  },
+  "phase2_start": {
+   "held_start3": 64,
+   "hold_error_median_held": 0.02794253768126985,
+   "goal_tip_to_p_star_end2_median": 0.04101625834989664,
+   "tip_to_p_star_start_median": 0.2571972850444918,
+   "releases_phase2": 0
+  }
+ }
+}

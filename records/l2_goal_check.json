@@ -1,0 +1,112 @@
+{
+ "l2_attempt1:30": {
+  "goal_to_default": 0.1971978434056213,
+  "goal_to_grasp_point": 0.07258909675049408,
+  "goal_spread": 0.1616096519739759,
+  "grasp_point_spread": 0.2054404372458614
+ },
+ "l2_attempt1:50": {
+  "goal_to_default": 0.21374191795669645,
+  "goal_to_grasp_point": 0.07918193361966078,
+  "goal_spread": 0.19198435395507213,
+  "grasp_point_spread": 0.20228370857203798,
+  "goal_to_carry_target": 0.24307090061622788,
+  "share_goal_closer_to_carry_target": 0.3125
+ },
+ "l2_attempt2a:50": {
+  "goal_to_default": 0.1059522638745615,
+  "goal_to_grasp_point": 0.21885044905435908,
+  "goal_spread": 0.11020569097494981,
+  "grasp_point_spread": 0.19694496691284208
+ },
+ "l2_attempt2b:50": {
+  "goal_to_default": 0.11787122183068995,
+  "goal_to_grasp_point": 0.23276160242470878,
+  "goal_spread": 0.1788932466559301,
+  "grasp_point_spread": 0.19471215264521333
+ },
+ "l2_diag_relzero:30": {
+  "goal_to_default": 0.15106783290603498,
+  "goal_to_grasp_point": 0.17617885385072157,
+  "goal_spread": 0.08908291193024759,
+  "grasp_point_spread": 0.19619105995284775
+ },
+ "l2_diag_relzero:40": {
+  "goal_to_default": 0.13786009429231155,
+  "goal_to_grasp_point": 0.1701580950526136,
+  "goal_spread": 0.10836567898079298,
+  "grasp_point_spread": 0.19695136516168743
+ },
+ "l2_diag_cost13:30": {
+  "goal_to_default": 0.13897660534445067,
+  "goal_to_grasp_point": 0.17182708712163045,
+  "goal_spread": 0.11910259728318415,
+  "grasp_point_spread": 0.19435006605948274
+ },
+ "l2_diag_cost13:40": {
+  "goal_to_default": 0.1340236918352885,
+  "goal_to_grasp_point": 0.16698668467507116,
+  "goal_spread": 0.12786430310848632,
+  "grasp_point_spread": 0.1942003912438363
+ },
+ "l2_attempt2b:30": {
+  "goal_to_default": 0.12155107560291811,
+  "goal_to_grasp_point": 0.2059368750138334,
+  "goal_spread": 0.1572220829961596,
+  "grasp_point_spread": 0.19569135427237833
+ },
+ "l2_attempt1:40": {
+  "goal_to_default": 0.2124241007666577,
+  "goal_to_grasp_point": 0.062309432484495934,
+  "goal_spread": 0.17693789000338989,
+  "grasp_point_spread": 0.20084508123128447
+ },
+ "l2_diag_init1_rev14:30": {
+  "goal_to_default": 0.13280376779567554,
+  "goal_to_grasp_point": 0.19482601765696644,
+  "goal_spread": 0.09159996037966757,
+  "grasp_point_spread": 0.19628513684727084
+ },
+ "l2_diag_init1_rev14:40": {
+  "goal_to_default": 0.13620628533664014,
+  "goal_to_grasp_point": 0.1712548147442186,
+  "goal_spread": 0.11875258438172845,
+  "grasp_point_spread": 0.19627075315935416,
+  "goal_to_carry_target": 0.32346485655224355,
+  "share_goal_closer_to_carry_target": 0.296875
+ },
+ "l2_diag_init1_rev13:30": {
+  "goal_to_default": 0.20690284069527076,
+  "goal_to_grasp_point": 0.10084066995943025,
+  "goal_spread": 0.14059209234946846,
+  "grasp_point_spread": 0.19499109666165482
+ },
+ "l2_diag_init1_rev13:40": {
+  "goal_to_default": 0.1867240113415522,
+  "goal_to_grasp_point": 0.08856239005921193,
+  "goal_spread": 0.14744976253971762,
+  "grasp_point_spread": 0.1966083168559193,
+  "goal_to_carry_target": 0.2763980410708926,
+  "share_goal_closer_to_carry_target": 0.3125
+ },
+ "l2_diag_init1_rev14_vnorm:30": {
+  "goal_to_default": 0.1389505752968441,
+  "goal_to_grasp_point": 0.16724598041566996,
+  "goal_spread": 0.06457554123994513,
+  "grasp_point_spread": 0.1948513292870122
+ },
+ "l2_diag_init1_rev14_vnorm:40": {
+  "goal_to_default": 0.175265791443381,
+  "goal_to_grasp_point": 0.13359533056209882,
+  "goal_spread": 0.09575913411751352,
+  "grasp_point_spread": 0.1948914229998967
+ },
+ "l2_attempt2:100": {
+  "goal_to_default": 0.1521520555014257,
+  "goal_to_grasp_point": 0.13866647332549284,
+  "goal_spread": 0.14346088289213316,
+  "grasp_point_spread": 0.19651684144335912,
+  "goal_to_carry_target": 0.2560797939755608,
+  "share_goal_closer_to_carry_target": 0.328125
+ }
+}

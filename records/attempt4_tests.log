@@ -1,0 +1,13 @@
+PASS (3) head leaves the action distribution unchanged | 1447 decisions, mean/log_std/logit bit-identical
+PASS (3) class loss gives no actor gradient at initialization | max |actor grad (w 0.1) - (w 0)| = 0.0e+00; head gradient max 1.775e-02 (the head learns); BCE 0.693147 = log 2 0.693147; held decisions 774
+PASS (3) ppo_loss_i reduces to ppo_loss | |loss diff| 0.0e+00, max |grad diff| 3.3e-16
+PASS (5) sampler frequency, logit -6 | p' 0.027349 frequency 0.027416 (4 sd 6.5e-04); p' in [0.025, 0.975]
+PASS (5) sampler frequency, logit -1 | p' 0.280494 frequency 0.280665 (4 sd 1.8e-03); p' in [0.025, 0.975]
+PASS (5) sampler frequency, logit +0 | p' 0.500000 frequency 0.499323 (4 sd 2.0e-03); p' in [0.025, 0.975]
+PASS (5) sampler frequency, logit +2 | p' 0.861757 frequency 0.861925 (4 sd 1.4e-03); p' in [0.025, 0.975]
+PASS (5) sampler frequency, logit +6 | p' 0.972651 frequency 0.972494 (4 sd 6.5e-04); p' in [0.025, 0.975]
+PASS (5) rollout log-probability = logp_mix(0.05) | max |recorded - recomputed| 7.5e-15 over 1447 decisions; against the plain gripper term 8.808
+PASS (5) rollout gripper frequency = mean p' | share psi=1 0.8825, mean p' 0.8831 (4 sd 0.0279)
+PASS (5) evaluation mode 1 unchanged | deterministic rollouts with GRIP_EPS 0.05 and 0: identical gripper, actions and costs
+PASS (5) evaluation mode 2 unchanged | gripper-sampled rollouts with GRIP_EPS 0.05 and 0: identical gripper draws and costs
+all passed

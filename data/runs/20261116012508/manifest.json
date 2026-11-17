@@ -1,0 +1,112 @@
+{
+ "timestamp": "20261116012508",
+ "purpose": "pilot O: optimization of the coupled learning",
+ "plan": "records/l2_pilotO_plan.md",
+ "plan_sha256_prefix": "316d6d87",
+ "plan_hash_file": "records/l2_pilotO_plan.hash",
+ "code": {
+  "git_commit": "81f2173d028a8e3b4028849b07c8b145954e4f21",
+  "dirty": true,
+  "diff_sha256": "018ab29bbf20fb679a27f33df6593a95a7a8be97c20156756b9dc4953c410c4e",
+  "note": "hash of the diff against HEAD and of the untracked files of the training path (CODE in pairl.tools.runs)",
+  "training_path_sha256": {
+   "script/l2_train.py": "ebe1147378b0397a",
+   "src/pairl/learn/__init__.py": "e3b0c44298fc1c14",
+   "src/pairl/learn/l0.py": "b6893ce7bf0db077",
+   "src/pairl/learn/l1.py": "09716fbad5f2d8f0",
+   "src/pairl/learn/l2.py": "911b736a31e07fbe",
+   "src/pairl/learn/l2_hand_contact_core.py": "75cd51582654e0da",
+   "src/pairl/stageb/__init__.py": "e3b0c44298fc1c14",
+   "src/pairl/stageb/controller.py": "9f947292787d3e1f",
+   "src/pairl/stageb/env.py": "c1f5e99edc00d5bd",
+   "src/pairl/stageb/harness.py": "da0e186005683961",
+   "src/pairl/stageb/kin_np.py": "2d385f590468d2b4",
+   "src/pairl/stageb/model.py": "0b4b224f6d0c0046",
+   "src/pairl/stageb/params.py": "3d79b9a9a31aa304",
+   "src/pairl/stageb/refs.py": "dfb32c533b2f8970",
+   "src/pairl/paths.py": "79407accee5b13b8",
+   "pyproject.toml": "e8c81c206e385d47"
+  },
+  "history": [
+   {
+    "git_commit": "81f2173d028a8e3b4028849b07c8b145954e4f21",
+    "dirty": true,
+    "diff_sha256": "ec3a34eb752ab58e1dbd648b55a3f6daf155a82ab53e54237e5132383123c5a8",
+    "note": "code state recorded at the launch of arm C with the first version of pairl.tools.runs, whose hash covered the whole working tree (records and figures included); the launch of arm N was refused because records/l2_pilotO_eval.json and a figure changed after C. Between C and the later arms only two files changed: src/pairl/tools/runs.py (the hash now covers src, script, eval, pyproject.toml only) and eval/figures/fig_l2_pilotO.py (new figure script); neither is on the training path. Training path unchanged: script/l2_train.py, src/pairl/learn, src/pairl/stageb identical (sha256 below)."
+   },
+   {
+    "git_commit": "81f2173d028a8e3b4028849b07c8b145954e4f21",
+    "dirty": true,
+    "diff_sha256": "e309d084fd3e09b191174122bf45ea2613d0a6a86aa7d7b5a7a3bb64cb80184f",
+    "note": "code state used at the launch of arm N (hash over src, script, eval, pyproject.toml)"
+   },
+   {
+    "git_commit": "81f2173d028a8e3b4028849b07c8b145954e4f21",
+    "dirty": true,
+    "diff_sha256": "ada81aa31fa630e6e6ea37ad29e423739af545f6388a84ea74756c2ba194a94f",
+    "note": "code state recorded during arm N (hash over script/l2_train.py, src, pyproject.toml)"
+   }
+  ],
+  "change_note": "2026-11-16, during arm N: the code state is restricted to the training path (script/l2_train.py, src, pyproject.toml), so that evaluation, figure and summary scripts can change between arms; training-path sha256 unchanged since arm C (checked). Later the same day the hash scope was narrowed to the numerics (script/l2_train.py, src/pairl/learn, src/pairl/stageb, src/pairl/paths.py, pyproject.toml), because bookkeeping code (src/pairl/tools) changed between arms; training path unchanged (checked)."
+ },
+ "platform": {
+  "device": "GPU",
+  "jax_device": "cuda:0",
+  "device_kind": "NVIDIA GeForce RTX 5080",
+  "cpu": "Intel(R) Core(TM) Ultra 9 285K",
+  "host": "junhyeok",
+  "python": "3.13.18",
+  "jax": "0.12.0.1",
+  "x64": true
+ },
+ "commands": [
+  "python script/l2_train.py group=new l2_pilotO_C 60 128 6144 data/runs/20261115134229/l2_attempt3/params_it0140.pkl restart=0.5 eval_restart=1 plan=records/l2_pilotO_plan.md 'purpose=pilot O: optimization of the coupled learning'",
+  "python script/l2_train.py group=20261116012508 l2_pilotO_N 60 1024 6144 data/runs/20261115134229/l2_attempt3/params_it0140.pkl restart=0.5 eval_restart=1 plan=records/l2_pilotO_plan.md 'purpose=pilot O: optimization of the coupled learning' mb_scale=1",
+  "python script/l2_train.py group=20261116012508 l2_pilotO_K 60 128 6144 data/runs/20261115134229/l2_attempt3/params_it0140.pkl restart=0.5 eval_restart=1 plan=records/l2_pilotO_plan.md 'purpose=pilot O: optimization of the coupled learning' kl_target=0.015",
+  "python script/l2_train.py group=20261116012508 l2_pilotO_H 60 128 6144 data/runs/20261115134229/l2_attempt3/params_it0140.pkl restart=0.5 eval_restart=1 plan=records/l2_pilotO_plan.md 'purpose=pilot O: optimization of the coupled learning' c_ent=1e-2",
+  "python script/l2_train.py group=20261116012508 l2_pilotO_D 60 128 6144 data/runs/20261115134229/l2_attempt3/params_it0140.pkl restart=0.5 eval_restart=1 plan=records/l2_pilotO_plan.md 'purpose=pilot O: optimization of the coupled learning' lr_h_half=20",
+  "python script/l2_train.py group=20261116012508 l2_pilotO_NH 60 1024 6144 data/runs/20261115134229/l2_attempt3/params_it0140.pkl restart=0.5 eval_restart=1 plan=records/l2_pilotO_plan.md 'purpose=pilot O: optimization of the coupled learning' mb_scale=1 c_ent=1e-2"
+ ],
+ "runs": {
+  "l2_pilotO_C": {
+   "start": "2026-11-16T01:25:08",
+   "end": "2026-11-16T01:50:55",
+   "status": "complete"
+  },
+  "l2_pilotO_N": {
+   "start": "2026-11-16T01:53:50",
+   "end": "2026-11-16T02:21:09",
+   "status": "complete"
+  },
+  "l2_pilotO_K": {
+   "start": "2026-11-16T02:24:05",
+   "end": "2026-11-16T02:51:04",
+   "status": "complete"
+  },
+  "l2_pilotO_H": {
+   "start": "2026-11-16T02:52:48",
+   "end": "2026-11-16T03:18:34",
+   "status": "complete"
+  },
+  "l2_pilotO_D": {
+   "start": "2026-11-16T03:20:14",
+   "end": "2026-11-16T03:46:11",
+   "status": "complete"
+  },
+  "l2_pilotO_NH": {
+   "start": "2026-11-16T12:31:50",
+   "end": "2026-11-16T12:59:00",
+   "status": "complete",
+   "plan_sha256_prefix": "760c68df"
+  }
+ },
+ "start": "2026-11-16T01:25:08",
+ "end": "2026-11-16T12:59:00",
+ "status": "complete",
+ "key_result": "adopted N and H; amendment 1: NH adopted (NH minus N -1.735 [-2.028, -1.474]); K, D not adopted",
+ "success": {
+  "checkpoint": "l2_pilotO_NH:200",
+  "P1": 0.15234375,
+  "full_chain": 0.0
+ }
+}

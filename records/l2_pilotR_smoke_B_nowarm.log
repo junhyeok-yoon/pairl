@@ -1,0 +1,11 @@
+[      0s] cost version 3 role weighting 1 warm start ../../records/l2_attempt2/params_it0300.pkl
+[      0s] building the training pool and the evaluation sets
+[     67s] pool ready 6144 budget episodes 1847
+[     69s] warm start from ../../records/l2_attempt2/params_it0300.pkl iteration 300 cost version 3 gripper reset 0 role weighting 1
+[     70s] start-state distribution: original 64 phase-2 restarts 32 phase-3 restarts 32 | restart evaluations True
+[    137s] EVAL it 300: cost 39.483 grasp 0.11 pos2 0.2777 frel 1.000 class|contact nan (n 0) | blind: class|contact nan (n 0) frel 1.000 pos2 0.2753 | bud cost 37.978 gate 0.017 | hand res learned 2.947 (base 4.813) class 1.768 prior 0.691 | r2: held at phase 3 1.00 pos2 0.2489 | r3: top in window 0.44 frel 1.291 accurate press 0.00
+[    185s] it 301: cost 41.466 grasp 0.05 pos2 0.3227 frel 1.000 cls|contact None (n 0) | p_open_att 0.001 rel<4 0.00 att3 0.05 touch3 0.33 | hand 0.860 (all 5.766) mis_hold 0.344 | viol 0 tb 0.2266 gate 0.002 | kl 4.1181 clip 0.720 vl 86.958 sd 0.0450/0.252 | 47.5s | r2 cost 28.94 held3 1.00 r3 cost 85.65 top 0.50
+[    216s] it 302: cost 43.139 grasp 0.09 pos2 0.3012 frel 1.000 cls|contact 1.0 (n 1) | p_open_att 0.001 rel<4 0.02 att3 0.12 touch3 0.62 | hand 1.129 (all 10.324) mis_hold 0.383 | viol 0 tb 0.0617 gate 0.002 | kl 0.0686 clip 0.508 vl 176.003 sd 0.0408/0.249 | 31.0s | r2 cost 57.56 held3 0.97 r3 cost 111.54 top 0.59
+[    266s] EVAL it 302: cost 40.421 grasp 0.08 pos2 0.2755 frel 1.000 class|contact nan (n 0) | blind: class|contact nan (n 0) frel 1.000 pos2 0.2755 | bud cost 38.175 gate 0.017 | hand res learned 1.264 (base 5.448) class 1.768 prior 0.934 | r2: held at phase 3 1.00 pos2 0.2481 | r3: top in window 0.53 frel 1.537 accurate press 0.00
+[    266s] done
+EXIT 0

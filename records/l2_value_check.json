@@ -1,0 +1,59 @@
+{
+ "l2_diag_init1_rev14:30:cost3": {
+  "first_decision_residual_sd": 4.472963784587546,
+  "share_durations": 0.06662109936092309,
+  "share_grasp": 0.05179778224766185,
+  "share_geometry_grasp": 0.11371403410973124,
+  "actor_grad_norm": 4.028144453091098,
+  "critic_grad_norm": 2.05367433043268,
+  "clip_factor_mean": 0.1146374973249252,
+  "cost1": {
+   "episode_cost_mean": 27.722152607401704,
+   "episode_cost_sd": 9.827303574356328,
+   "share_phase23_geometry_durations": 0.07961575611543281
+  },
+  "cost3": {
+   "episode_cost_mean": 50.41459074543401,
+   "episode_cost_sd": 11.152596021965067,
+   "share_phase23_geometry_durations": 0.2890343495322052
+  }
+ },
+ "l2_diag_init1_rev13:30:cost1": {
+  "first_decision_residual_sd": 2.5273806343097904,
+  "share_durations": 0.010030568397195738,
+  "share_grasp": 0.0037898571260635006,
+  "share_geometry_grasp": 0.02808301519379519,
+  "actor_grad_norm": 4.723604605666944,
+  "critic_grad_norm": 1.4651058561178194,
+  "clip_factor_mean": 0.1039587375941172,
+  "cost1": {
+   "episode_cost_mean": 23.36707623242753,
+   "episode_cost_sd": 8.6174377861721,
+   "share_phase23_geometry_durations": 0.09910734701296164
+  },
+  "cost3": {
+   "episode_cost_mean": 46.06131465870349,
+   "episode_cost_sd": 9.999819471069147,
+   "share_phase23_geometry_durations": 0.3628401460175611
+  }
+ },
+ "l2_diag_init1_rev14_vnorm:30:cost3": {
+  "first_decision_residual_sd": 4.337078376316263,
+  "share_durations": 0.04623435754876837,
+  "share_grasp": 0.09432093842794276,
+  "share_geometry_grasp": 0.2128654813520695,
+  "actor_grad_norm": 2.4361282625504015,
+  "critic_grad_norm": 0.10059113364873053,
+  "clip_factor_mean": 0.21095466694620638,
+  "cost1": {
+   "episode_cost_mean": 27.178799960058893,
+   "episode_cost_sd": 10.323819413250545,
+   "share_phase23_geometry_durations": 0.09494577868856113
+  },
+  "cost3": {
+   "episode_cost_mean": 49.50470518305403,
+   "episode_cost_sd": 11.800995367652291,
+   "share_phase23_geometry_durations": 0.32188451985182875
+  }
+ }
+}

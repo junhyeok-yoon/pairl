@@ -1,0 +1,3 @@
+l2_attempt1 it 30: end of phase 1, goal tip to the zero-action tip median 0.197 m, goal tip to the grasp point median 0.073 m, spread of goal tips across episodes (std) 0.162 m, spread of grasp points 0.205 m
+l2_attempt1 it 50: end of phase 1, goal tip to the zero-action tip median 0.214 m, goal tip to the grasp point median 0.079 m, spread of goal tips across episodes (std) 0.192 m, spread of grasp points 0.202 m
+l2_attempt2a it 50: end of phase 1, goal tip to the zero-action tip median 0.106 m, goal tip to the grasp point median 0.219 m, spread of goal tips across episodes (std) 0.110 m, spread of grasp points 0.197 m

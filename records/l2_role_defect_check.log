@@ -1,0 +1,13 @@
+normal episodes attached at the first record: 3 of 128; grasps 9
+w_mode 0 [0]: new 0.503351477419 old 0.503351477419 diff 0.000e+00
+w_mode 0 [32]: new 2.679764828342 old 2.679764828342 diff 0.000e+00
+w_mode 0 [64]: new 4.193032418021 old 4.193032418021 diff 0.000e+00
+w_mode 0 [96]: new 0.508369563503 old 0.508369563503 diff 0.000e+00
+w_mode 1 [0]: new 0.503351477419 old 0.503351477419 diff 0.000e+00
+w_mode 1 [32]: new 0.761054375303 old 1.841811924373 diff -1.081e+00
+w_mode 1 [64]: new 0.902503960292 old 1.480988402044 diff -5.785e-01
+w_mode 1 [96]: new 0.508369563503 old 0.508369563503 diff 0.000e+00
+restart: new weighted 1.1055296401171162 old weighted (prior blamed for the load) 13.717466147224831 unweighted 13.81471562308849
+pool: initial tip within GRASP_DIST of the grasp point: 36 of 6144 (0.59%); first 128: 3
+distance quantiles [m] [0.0096, 0.0265, 0.0608, 0.2343]
+evaluation set: 1 of 64

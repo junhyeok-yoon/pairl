@@ -1,0 +1,13 @@
+# attempt 4 pre-hash checks, 2026-11-17
+N reproduction (GPU, deterministic flag, 1 iteration from l2_pilotG_C:320, pre-change vs changed code):
+REPRODUCES hist True evals True params True
+I SMOKE EXIT 0
+port_check ref=pc (CPU, parallel launcher, changed code):
+start 0 vs pc baseline: mean cost 17.373252 (baseline 17.373252, difference 0.000e+00), relative difference per episode mean 0.00e+00 max 0.00e+00, episodes above 1e-6: 0, bit-identical 64/64, time incl. compile 7.3 s
+start 2 vs pc baseline: mean cost 6.421073 (baseline 6.421073, difference 0.000e+00), relative difference per episode mean 0.00e+00 max 0.00e+00, episodes above 1e-6: 0, bit-identical 64/64, time incl. compile 7.2 s
+start 3 vs pc baseline: mean cost 4.681267 (baseline 4.681267, difference 0.000e+00), relative difference per episode mean 0.00e+00 max 0.00e+00, episodes above 1e-6: 0, bit-identical 64/64, time incl. compile 2.1 s
+REPRODUCTION vs pc baseline EXACT (all 192 episode costs bit-identical)
+arm I smoke (2 iterations, not a record run):
+[     25s] tip-load inputs added (zero-initialized); max change of the actor and critic outputs on 2048 random inputs with random tip loads: 0.000e+00
+[     25s] class-reading head added (zero-initialized, zero Adam moments)
+[     25s] arm I: cls_aux 0.1 | continuous entropy coefficient 0.01 -> 0.001 | gripper entropy coefficient 0.01 | grip_eps 0.05

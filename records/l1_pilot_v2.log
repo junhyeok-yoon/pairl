@@ -1,0 +1,9 @@
+ID k_c=0.0              13.8s cost 2.491 grasp 1.00 class 1.000 pos2 0.0004/0.0118 frel 0.035/0.101 gate 0.000 tank_bound min 46.1328 sat_below 0.0 viol 0.0 Etask 1.90
+OOD body k_c=0.0        14.1s cost 10.168 grasp 0.11 class 1.000 pos2 0.2517/0.3764 frel 1.000/1.000 gate 0.000 tank_bound min 49.0723 sat_below 0.0 viol 0.0 Etask 1.28
+ID k_c=1.0              13.5s cost 2.489 grasp 1.00 class 1.000 pos2 0.0020/0.0075 frel 0.036/0.101 gate 0.000 tank_bound min 45.3647 sat_below 0.0 viol 0.0 Etask 2.15
+OOD body k_c=1.0        14.1s cost 7.375 grasp 0.34 class 1.000 pos2 0.2321/0.3578 frel 1.000/1.000 gate 0.000 tank_bound min 49.1343 sat_below 0.0 viol 0.0 Etask 1.46
+ID k_c=2.0              13.3s cost 2.784 grasp 1.00 class 1.000 pos2 0.0055/0.0196 frel 0.037/0.119 gate 0.000 tank_bound min 44.9335 sat_below 0.0 viol 0.0 Etask 2.63
+OOD body k_c=2.0        13.9s cost 5.429 grasp 0.83 class 1.000 pos2 0.0242/0.1867 frel 0.088/0.983 gate 0.000 tank_bound min 48.9369 sat_below 0.0 viol 0.0 Etask 1.81
+ID no ledger            13.8s cost 2.711 grasp 1.00 class 0.547 pos2 0.0004/0.0118 frel 0.217/0.578 gate 0.000 tank_bound min 46.1328 sat_below 0.0 viol 0.0 Etask 1.90
+BUD (all, rho sampled)  14.0s cost 3.601 grasp 0.89 class 0.982 pos2 0.0013/0.1989 frel 0.042/1.000 gate 0.209 tank_bound min 0.0190 sat_below 0.0 viol 0.0 Etask 1.78
+PDONE

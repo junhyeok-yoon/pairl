@@ -1,0 +1,9 @@
+# Checkpoints needed to reproduce the tracked results (not in git; *.pkl is ignored). Columns: path (relative to the repository root), size in bytes, sha256.
+# The L1 reference brain has no checkpoint: it is defined in code (scripted brain, REF options in script/l2_train.py and eval/diagnostics/phase_success.py, fixed class features).
+# l2_attempt3 at 300: attempt 3 (cloud run); l2_pilotLd_* at 260: pilot L decision iteration; l2_pilotG_C at 320: pilot G control and the start of attempt 4.
+data/runs/20261115134229/l2_attempt3/params_it0300.pkl  1197049  ad7f9f719b1f1870f04804d2558d75504b5bba6f1e4a47d87174272a0089b246
+data/runs/20261116145109/l2_pilotLd_C/params_it0260.pkl  1197049  6a050a7001657540d5888b0170cfb0257650e59ae5d091f598a993db573d2515
+data/runs/20261116145109/l2_pilotLd_L1/params_it0260.pkl  1197049  22c4d597e9585c37a23a367ea01295cd5fbab8390e8c9e315c26846b6ce04205
+data/runs/20261116145109/l2_pilotLd_L05/params_it0260.pkl  1197049  476919b325b92769bd5de34a907bcc5cecbd9813e4061181e22982be6421579b
+data/runs/20261116200435/l2_pilotLd_L025/params_it0260.pkl  1197049  72e8b65cb35ceb9ccc8432528df21c85733fc64942b385ae1d0f0c5124b6a5b1
+data/runs/20261116165912/l2_pilotG_C/params_it0320.pkl  1197049  3c0f724960ad919e03b26ce3604243b3265604e5ead4d300cbe334ff4bec378f

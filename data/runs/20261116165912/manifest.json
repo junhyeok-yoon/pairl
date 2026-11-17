@@ -1,0 +1,65 @@
+{
+ "timestamp": "20261116165912",
+ "purpose": "pilot G: grasp gate (brain, phase 1) and ledger channel (hand to brain)",
+ "plan": "records/l2_pilotG_plan.md",
+ "plan_sha256_prefix": "a23c7d49",
+ "plan_hash_file": "records/l2_pilotG_plan.hash",
+ "code": {
+  "git_commit": "81f2173d028a8e3b4028849b07c8b145954e4f21",
+  "dirty": true,
+  "diff_sha256": "9e93ab0996ec8d5d5cd661f99f4d37b61a35d0cb9ad2643bfeaa4872afa69255",
+  "note": "hash of the diff against HEAD and of the untracked files of the training path (CODE in pairl.tools.runs)"
+ },
+ "platform": {
+  "device": "GPU",
+  "jax_device": "cuda:0",
+  "device_kind": "NVIDIA GeForce RTX 5080",
+  "cpu": "Intel(R) Core(TM) Ultra 9 285K",
+  "host": "junhyeok",
+  "python": "3.13.18",
+  "jax": "0.12.0.1",
+  "x64": true,
+  "xla_flags": "--xla_gpu_deterministic_ops=true"
+ },
+ "commands": [
+  "python script/l2_train.py group=new l2_pilotG_C 60 1024 6144 /home/junhyeok/MIT/pairl/data/runs/20261116145109/l2_pilotLd_C/params_it0260.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 plan=records/l2_pilotG_plan.md 'purpose=pilot G: grasp gate (brain, phase 1) and ledger channel (hand to brain)'",
+  "python script/l2_train.py group=20261116165912 l2_pilotG_S 60 1024 6144 /home/junhyeok/MIT/pairl/data/runs/20261116145109/l2_pilotLd_C/params_it0260.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 plan=records/l2_pilotG_plan.md 'purpose=pilot G: grasp gate (brain, phase 1) and ledger channel (hand to brain)' cost=5",
+  "python script/l2_train.py group=20261116165912 l2_pilotG_S2 60 1024 6144 /home/junhyeok/MIT/pairl/data/runs/20261116145109/l2_pilotLd_C/params_it0260.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 plan=records/l2_pilotG_plan.md 'purpose=pilot G: grasp gate (brain, phase 1) and ledger channel (hand to brain)' cost=5 near=0.125",
+  "python script/l2_train.py group=20261116165912 l2_pilotG_B 60 1024 6144 /home/junhyeok/MIT/pairl/data/runs/20261116145109/l2_pilotLd_C/params_it0260.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 plan=records/l2_pilotG_plan.md 'purpose=pilot G: grasp gate (brain, phase 1) and ledger channel (hand to brain)' obs_tip=1"
+ ],
+ "runs": {
+  "l2_pilotG_C": {
+   "start": "2026-11-16T16:59:12",
+   "end": "2026-11-16T17:38:58",
+   "status": "complete",
+   "plan_sha256_prefix": "a23c7d49"
+  },
+  "l2_pilotG_S": {
+   "start": "2026-11-16T17:47:20",
+   "end": "2026-11-16T18:25:23",
+   "status": "complete",
+   "plan_sha256_prefix": "a23c7d49"
+  },
+  "l2_pilotG_S2": {
+   "start": "2026-11-16T18:33:38",
+   "end": "2026-11-16T19:12:03",
+   "status": "complete",
+   "plan_sha256_prefix": "a23c7d49"
+  },
+  "l2_pilotG_B": {
+   "start": "2026-11-16T19:20:28",
+   "end": "2026-11-16T19:59:37",
+   "status": "complete",
+   "plan_sha256_prefix": "a23c7d49"
+  }
+ },
+ "start": "2026-11-16T16:59:12",
+ "end": "2026-11-16T19:59:37",
+ "status": "complete",
+ "key_result": "nothing adopted: S, S2 lower grasp; B passes class decision, class gap, P3prime, cost but not P3 (+0.016 [-0.020, +0.051])",
+ "success": {
+  "checkpoint": "l2_pilotG_B:320",
+  "P1": 0.4609375,
+  "full_chain": 0.0078125
+ }
+}

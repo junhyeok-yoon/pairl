@@ -1,0 +1,52 @@
+{
+ "l2_attempt2:200": {
+  "phase1_free_to_grasp_point": {
+   "decisions_per_128_episodes": 4999.0,
+   "episodes": 256,
+   "goal_tip_to_target_median": 0.10498969480722738,
+   "deviation_projection_sd": 0.020028330051043507,
+   "corr_lambda0.95": 0.0548958645165654,
+   "ci95_lambda0.95": [
+    0.012107519194833655,
+    0.10413131760557878
+   ],
+   "corr_lambda1": -0.0013365676344937133,
+   "ci95_lambda1": [
+    -0.055161135816020355,
+    0.05774859517240906
+   ]
+  },
+  "phase2_held_to_p_star": {
+   "decisions_per_128_episodes": 375.5,
+   "episodes": 16,
+   "goal_tip_to_target_median": 0.33917749470207675,
+   "deviation_projection_sd": 0.03023729790331816,
+   "corr_lambda0.95": 0.21649059286872346,
+   "ci95_lambda0.95": [
+    -0.004762816240705695,
+    0.35397015214704336
+   ],
+   "corr_lambda1": 0.01576587389895842,
+   "ci95_lambda1": [
+    -0.15844044292421977,
+    0.2410548856522273
+   ]
+  },
+  "phase3_held_to_p_c": {
+   "decisions_per_128_episodes": 385.0,
+   "episodes": 17,
+   "goal_tip_to_target_median": 0.2702927791548212,
+   "deviation_projection_sd": 0.02655514997656239,
+   "corr_lambda0.95": 0.09246617759509866,
+   "ci95_lambda0.95": [
+    -0.13201313496452804,
+    0.2568588569218028
+   ],
+   "corr_lambda1": 0.02520060714484286,
+   "ci95_lambda1": [
+    -0.1986870984890534,
+    0.14560382461296814
+   ]
+  }
+ }
+}

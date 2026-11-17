@@ -1,0 +1,99 @@
+{
+ "l2_attempt3:300": {
+  "mode": "task",
+  "rest_share_by_phase": [
+   0.154,
+   0.484,
+   0.733,
+   0.413
+  ],
+  "rest_share_free_phase1": 0.15,
+  "rest_share_held": 0.597,
+  "never": {
+   "n": 19,
+   "min_dist_median": 0.0288,
+   "min_dist_p75": 0.0409,
+   "share_ever_inside_2cm": 0.158,
+   "decisions_inside_median": 0.0,
+   "min_speed_inside_median": 0.1607,
+   "grasp_point_radius_median": 0.7328,
+   "grasp_point_height_median": 0.2752,
+   "grasp_point_x_median": 0.6638,
+   "object_mass_median": 0.56,
+   "dist_end_episode_median": 0.324
+  },
+  "late": {
+   "n": 35,
+   "min_dist_median": 0.0057,
+   "min_dist_p75": 0.0116,
+   "share_ever_inside_2cm": 1.0,
+   "decisions_inside_median": 8.0,
+   "min_speed_inside_median": 0.0751,
+   "grasp_point_radius_median": 0.6884,
+   "grasp_point_height_median": 0.1878,
+   "grasp_point_x_median": 0.6423,
+   "object_mass_median": 1.0924,
+   "dist_end_episode_median": 0.0128
+  },
+  "phase1": {
+   "n": 10,
+   "min_dist_median": 0.0061,
+   "min_dist_p75": 0.0132,
+   "share_ever_inside_2cm": 1.0,
+   "decisions_inside_median": 17.0,
+   "min_speed_inside_median": 0.0763,
+   "grasp_point_radius_median": 0.4821,
+   "grasp_point_height_median": 0.04,
+   "grasp_point_x_median": 0.4703,
+   "object_mass_median": 0.6218,
+   "dist_end_episode_median": 0.0148
+  },
+  "speed_free_0-0.02m": {
+   "n": 509,
+   "speed_median": 0.2574,
+   "slow_share": 0.0943
+  },
+  "speed_free_0.02-0.05m": {
+   "n": 1553,
+   "speed_median": 0.1876,
+   "slow_share": 0.2788
+  },
+  "speed_free_0.05-0.1m": {
+   "n": 2307,
+   "speed_median": 0.353,
+   "slow_share": 0.1157
+  },
+  "speed_free_0.1-9m": {
+   "n": 1226,
+   "speed_median": 0.6022,
+   "slow_share": 0.1892
+  },
+  "dp_norm_inside_ball_median_m": 0.0253,
+  "dp_norm_far_median_m": 0.0621,
+  "dp_toward_object_cos_median_2-10cm": -0.4418,
+  "dp_norm_2-10cm_median_m": 0.0297,
+  "dp_over_distance_ratio_2-10cm_median": 0.5972
+ },
+ "l2_pilotT_T:100": {
+  "mode": "task",
+  "rest_share_by_phase": [
+   0.07,
+   0.239,
+   0.55,
+   0.494
+  ],
+  "rest_share_free_phase1": 0.066,
+  "rest_share_held": 0.71
+ },
+ "l2_pilotT_J:100": {
+  "mode": "joint",
+  "rest_share_by_phase": [
+   0.241,
+   0.149,
+   0.235,
+   0.489
+  ],
+  "rest_share_free_phase1": 0.241,
+  "rest_share_held": 0.455
+ }
+}

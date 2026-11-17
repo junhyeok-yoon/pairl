@@ -1,0 +1,17 @@
+c0 {'gamma': 10.0, 'k': 20.0} 5.749e-04
+c0 {'gamma': 10.0, 'k': 40.0} 3.744e-04
+/home/claude/tune_panda.py:18: RuntimeWarning: Mean of empty slice
+  c = float(np.nanmean(np.asarray(f(d, *tasks, noise))))
+c0 {'gamma': 10.0, 'k': 80.0} nan
+c0 {'gamma': 30.0, 'k': 20.0} 5.496e-04
+c0 {'gamma': 30.0, 'k': 40.0} 3.742e-04
+c0 {'gamma': 30.0, 'k': 80.0} nan
+c0 {'gamma': 100.0, 'k': 20.0} 6.354e-04
+c0 {'gamma': 100.0, 'k': 40.0} 4.585e-04
+c0 {'gamma': 100.0, 'k': 80.0} nan
+c1 {'gamma': 30.0, 'k': 40.0, 'gb': 0.3} 3.716e-04
+c1 {'gamma': 30.0, 'k': 40.0, 'gb': 1.0} 3.657e-04
+c1 {'gamma': 30.0, 'k': 40.0, 'gb': 3.0} 3.509e-04
+c1 {'gamma': 30.0, 'k': 40.0, 'gb': 10.0} 3.157e-04
+c1 {'gamma': 30.0, 'k': 40.0, 'gb': 30.0} 2.768e-04
+best {'c0': (0.0003742367764029981, {'gamma': 30.0, 'k': 40.0}), 'c1': (0.00027682679026747855, {'gamma': 30.0, 'k': 40.0, 'gb': 30.0})}

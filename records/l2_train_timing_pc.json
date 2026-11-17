@@ -1,0 +1,183 @@
+{
+ "gpu_128": {
+  "device": "cuda:0",
+  "n_ep": 128,
+  "first_iteration_incl_compile_s": 43.11,
+  "steady_iterations": [
+   102,
+   103
+  ],
+  "steady_s": {
+   "total": 22.37,
+   "rollout": 5.04,
+   "hand": 16.62,
+   "ppo": 0.26,
+   "other": 0.46
+  },
+  "evaluation_rollouts_s_total": 59.64,
+  "peak_device_bytes": 317704704,
+  "tmp_deleted": true,
+  "per_iteration": [
+   {
+    "it": 101,
+    "t_it": 43.110565185546875,
+    "t_roll": 10.904507637023926,
+    "t_hand": 19.915048599243164,
+    "t_ppo": 8.441982746124268,
+    "t_other": 3.8490262031555176
+   },
+   {
+    "it": 102,
+    "t_it": 22.40834069252014,
+    "t_roll": 5.034937858581543,
+    "t_hand": 16.614442348480225,
+    "t_ppo": 0.3039681911468506,
+    "t_other": 0.45499229431152344
+   },
+   {
+    "it": 103,
+    "t_it": 22.340869426727295,
+    "t_roll": 5.039164304733276,
+    "t_hand": 16.624731302261353,
+    "t_ppo": 0.21355795860290527,
+    "t_other": 0.46341586112976074
+   }
+  ]
+ },
+ "gpu_512": {
+  "device": "cuda:0",
+  "n_ep": 512,
+  "first_iteration_incl_compile_s": 47.5,
+  "steady_iterations": [
+   102,
+   103
+  ],
+  "steady_s": {
+   "total": 23.8,
+   "rollout": 5.29,
+   "hand": 16.57,
+   "ppo": 1.28,
+   "other": 0.67
+  },
+  "evaluation_rollouts_s_total": 60.27,
+  "peak_device_bytes": 1098319360,
+  "tmp_deleted": true,
+  "per_iteration": [
+   {
+    "it": 101,
+    "t_it": 47.50142455101013,
+    "t_roll": 13.941969394683838,
+    "t_hand": 20.025817155838013,
+    "t_ppo": 9.120726108551025,
+    "t_other": 4.412911891937256
+   },
+   {
+    "it": 102,
+    "t_it": 24.14355754852295,
+    "t_roll": 5.275274276733398,
+    "t_hand": 16.59581708908081,
+    "t_ppo": 1.5593714714050293,
+    "t_other": 0.7130947113037109
+   },
+   {
+    "it": 103,
+    "t_it": 23.463529586791992,
+    "t_roll": 5.2990882396698,
+    "t_hand": 16.545854330062866,
+    "t_ppo": 0.9995856285095215,
+    "t_other": 0.6190013885498047
+   }
+  ]
+ },
+ "gpu_1024": {
+  "device": "cuda:0",
+  "n_ep": 1024,
+  "first_iteration_incl_compile_s": 50.02,
+  "steady_iterations": [
+   102,
+   103
+  ],
+  "steady_s": {
+   "total": 26.5,
+   "rollout": 5.9,
+   "hand": 16.58,
+   "ppo": 2.97,
+   "other": 1.04
+  },
+  "evaluation_rollouts_s_total": 59.94,
+  "peak_device_bytes": 2219273728,
+  "tmp_deleted": true,
+  "per_iteration": [
+   {
+    "it": 101,
+    "t_it": 50.01900386810303,
+    "t_roll": 14.35766887664795,
+    "t_hand": 19.955756187438965,
+    "t_ppo": 10.58887243270874,
+    "t_other": 5.116706371307373
+   },
+   {
+    "it": 102,
+    "t_it": 26.524506330490112,
+    "t_roll": 5.909634590148926,
+    "t_hand": 16.542856454849243,
+    "t_ppo": 3.0291714668273926,
+    "t_other": 1.0428438186645508
+   },
+   {
+    "it": 103,
+    "t_it": 26.47146487236023,
+    "t_roll": 5.898662805557251,
+    "t_hand": 16.618663549423218,
+    "t_ppo": 2.9079246520996094,
+    "t_other": 1.0462138652801514
+   }
+  ]
+ },
+ "cpu_128": {
+  "device": "cpu:0",
+  "n_ep": 128,
+  "first_iteration_incl_compile_s": 18.49,
+  "steady_iterations": [
+   102,
+   103
+  ],
+  "steady_s": {
+   "total": 13.65,
+   "rollout": 7.17,
+   "hand": 6.03,
+   "ppo": 0.18,
+   "other": 0.28
+  },
+  "evaluation_rollouts_s_total": 43.18,
+  "peak_device_bytes": null,
+  "tmp_deleted": true,
+  "per_iteration": [
+   {
+    "it": 101,
+    "t_it": 18.49178910255432,
+    "t_roll": 9.136258125305176,
+    "t_hand": 6.94481635093689,
+    "t_ppo": 1.2723283767700195,
+    "t_other": 1.1383862495422363
+   },
+   {
+    "it": 102,
+    "t_it": 13.772027969360352,
+    "t_roll": 7.189779996871948,
+    "t_hand": 6.129871845245361,
+    "t_ppo": 0.18022465705871582,
+    "t_other": 0.27215147018432617
+   },
+   {
+    "it": 103,
+    "t_it": 13.535090684890747,
+    "t_roll": 7.152369260787964,
+    "t_hand": 5.927194595336914,
+    "t_ppo": 0.1754775047302246,
+    "t_other": 0.28004932403564453
+   }
+  ]
+ },
+ "_note": "Timing of 3 training iterations (101-103) of script/l2_train.py at the attempt-3 configuration (warm start data/runs/20261115113808/l2_pilotT_T/params_it0100.pkl (then data/runs/l2_pilotT_T), restart=0.5, eval_restart=1, default hyperparameters), output in a temporary directory deleted afterwards; not registered; descriptive. steady = mean of iterations 102-103. hand = 16 role-loss gradient and Adam steps on 32 episodes (replay through jax.checkpoint); ppo = 5 epochs of PPO minibatches of 4096 decisions; other = statistics and logging. peak_device_bytes: JAX allocator peak (GPU, no preallocation, includes the hand backprop); nvidia-smi peaks incl. about 3.2 GB of the desktop: 6399 MiB (512), 8153 MiB (1024). Evaluation rollouts (64 episodes x 5 sets at iterations 100 and 103) are excluded from the iteration time. Host memory peak (cgroup): GPU runs 3.5-4.0 GB, CPU run 2.1 GB."
+}

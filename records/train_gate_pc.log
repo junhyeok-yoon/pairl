@@ -1,0 +1,51 @@
+# Training-path gate, this PC's CPU (Intel Core Ultra 9 285K, JAX 0.12.0.1, JAX_PLATFORMS=cpu), 2026-11-16. Not registered; descriptive; no run kept.
+# Configuration of attempt 3: l2_train.py OUT 3 128 6144 data/runs/20261115113808/l2_pilotT_T/params_it0100.pkl (then data/runs/l2_pilotT_T) restart=0.5 eval_restart=1 (iterations 101-103),
+# each run under script/safe_run.sh mem=8G, outputs in a temporary directory (/tmp/pairl_gate at the time; deleted afterwards).
+# bundle = the bundle extract's code/stageb/l2_train.py unmodified (flat imports from that directory; extract then at ~/MIT/pairl_bundle, now _local/bundle);
+# repo = script/l2_train.py. A driver read bp, hp and the optimizer states ab, ah from the script's globals each time hist.json was written.
+# Two pool cases: fresh (no cache; the pool's budget energies E_task are computed on this PC) and cloud cache (data/pools/l2_pool_E0_6144.json, sha256 3b5b58bd...).
+
+## Parameters and optimizer states after iterations 101, 102, 103 (sha256 of all leaves, and numpy array_equal)
+bundle fresh vs repo fresh:  101 identical, 102 identical, 103 identical
+bundle cache vs repo cache:  101 identical, 102 identical, 103 identical
+(bundle fresh vs bundle cache: different at 101-103, because the pools differ; see below)
+
+## train.log (stdout, 11 lines each)
+bundle vs repo, both pool cases: identical after removing the elapsed-time prefix [ Ns] and the seconds per iteration; the warm-start path differs only
+by the temporary directory name. hist.json and evals.json identical after removing t_it and t_roll.
+
+## Pool cache
+fresh cache, bundle and repo: identical files (sha256 1da2a870...).
+fresh cache (this PC) vs the cloud cache: 6144 entries, 1486 differ, all of them budget episodes (1847 budget episodes); median relative difference 8.2e-12,
+maximum 4.02e-02. Cause: E_task comes from L1 reference-brain rollouts, which differ between the machines (verified_values.md, "## Platform reproduction").
+The repository keeps the cloud cache (data/pools/l2_pool_E0_6144.json, identical to the bundle's); runs on this PC that use it reproduce the bundle code
+bit-identically. A fresh cache would change the training pool: keep the cloud cache, do not regenerate it.
+
+## Second gate (2026-11-16): repository code with the pilot-O options (kl_target, c_ent, lr_h_half, mb_scale) and the group= option, defaults
+Same configuration and method; this PC's CPU; cloud pool cache; outputs in _local/tmp (deleted afterwards). Runs: bundle code; repository code with OUT as a
+path; repository code with group=new (scratch PAIRL_ROOT with a test plan and hash).
+Parameters and optimizer states after 101, 102, 103: bundle vs repository identical; bundle vs repository with group=new identical.
+train.log: identical after removing elapsed times, the seconds per iteration and the output path (group=new writes train.log in the run directory).
+hist.json and evals.json identical after removing t_it and t_roll. Manifest status of the group run: complete. port_check ref=pc: EXACT.
+
+## Options, functional check (2 iterations from data/runs/20261115134229/l2_attempt3/params_it0140.pkl, opt_reset=1, CPU; descriptive)
+Iteration 141 identical in cost for all options (same rollout); iteration 142 changes as intended: c_ent=1e-2 cost 28.9992 (base 29.6152), kl_target=0.015
+lr_b 3e-4 -> 2e-4 after the KL 1.765 of 141, lr_h_half=20 lr_h 9.66e-4 at 141 and 9.33e-4 at 142, mb_scale=1 identical to base (18900 decisions < 4096 x 1).
+Optimizer reset vs carried at 141: KL 1.765 / 0.038, clip share 0.679 / 0.342, goal sd 0.0592 / 0.0586 (records/l2_pilotO_plan.md, Start).
+
+## Third gate (2026-11-16): repository code with the ltr= option (l2.transfer_loss, l2.make_hand_grad_tr), defaults
+Same configuration and method (CPU, cloud pool, temporary outputs deleted). Bundle vs repository: parameters and optimizer states after 101-103 identical
+(GATE lines identical), train.log 11 lines identical apart from elapsed times, seconds per iteration and output path, hist.json and evals.json identical
+apart from t_it and t_roll. port_check ref=pc: EXACT. Functional: 1 iteration from l2_pilotO_NH at 200 with ltr=1 (CPU) runs; hand_ltr 0.494 at 201.
+
+## Fourth gate (2026-11-16): options of pilot G (cost=5 speed term, near= near-object starts, obs_tip=1 tip-load inputs) and the extended decision evaluation
+Defaults: bundle vs repository identical as before (GATE lines, train.log 11 lines, hist.json and evals.json apart from t_it and t_roll); port_check
+ref=pc EXACT. Functional, 1 iteration from l2_pilotO_NH at 200 on the CPU (N_EP 128): cost=5 runs (training cost 18.982 at 201 under revision 17);
+near=0.125 gives 16 near starts per batch, 0 not found; obs_tip=1 adds the two inputs (actor first layer 33 x 128, critic 39 x 128, checkpoint key
+obs=tipload) and the actor and critic outputs on 2048 random inputs with random tip loads change by 0.000e+00.
+
+## Fifth gate (2026-11-16): rollout mode 2 (deterministic motion, gripper sampled; evaluation only)
+Defaults: bundle vs repository identical (GATE lines, hist.json and evals.json apart from t_it and t_roll); port_check ref=pc EXACT.
+
+## Sixth gate (2026-11-16): gate alpha added to the per-step record of l2.rollout (videos); imageio-ffmpeg installed (extra viz)
+Defaults: bundle vs repository identical (GATE lines, hist.json and evals.json apart from t_it and t_roll); port_check ref=pc EXACT.

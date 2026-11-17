@@ -1,0 +1,4 @@
+cascade: finite 30/30; joint V ever increases (>1e-6 V0): 0; max rel. step increase -1.29e-08; rms e 0.477 deg (median); last 5 s rms 0.3741 deg, worst 2.485
+tracking: finite 30/30; joint V ever increases (>1e-6 V0): 30; max rel. step increase 2.24e-01; rms e 0.795 deg (median); last 5 s rms 0.6945 deg, worst 1.545
+cascade, torque-sensor noise 0.05 N m: finite 30/30; last 5 s rms 0.3736 deg (median), worst 2.486
+tracking, torque-sensor noise 0.05 N m: finite 30/30; last 5 s rms 0.6945 deg (median), worst 1.545

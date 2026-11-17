@@ -1,0 +1,1 @@
+case 42: max ||w|| = 0.93901, a priori bound = 0.96479, time with yield < 1: 0.972, time saturated: 0.637

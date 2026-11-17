@@ -1,0 +1,9 @@
+m=1 gamma1=2.0: rho0=0.400 m_star=0.03521 | max d||w||/dt * psi = -0.1412 (must be < 0) | min(restoring - Psi(s)) = +5.276e-11 (must be >= 0) | samples 2000000
+m=1 gamma1=9.5: rho0=0.400 m_star=0.01715 | max d||w||/dt * psi = -0.2735 (must be < 0) | min(restoring - Psi(s)) = +2.209e-10 (must be >= 0) | samples 2000000
+m=2 gamma1=2.0: rho0=0.400 m_star=0.03521 | max d||w||/dt * psi = -0.1390 (must be < 0) | min(restoring - Psi(s)) = +6.226e-08 (must be >= 0) | samples 2000000
+m=2 gamma1=9.5: rho0=0.400 m_star=0.01715 | max d||w||/dt * psi = -0.2533 (must be < 0) | min(restoring - Psi(s)) = +2.335e-07 (must be >= 0) | samples 2000000
+m=3 gamma1=2.0: rho0=0.400 m_star=0.03521 | max d||w||/dt * psi = -0.1417 (must be < 0) | min(restoring - Psi(s)) = +4.536e-05 (must be >= 0) | samples 2000000
+m=3 gamma1=9.5: rho0=0.400 m_star=0.01715 | max d||w||/dt * psi = -0.2650 (must be < 0) | min(restoring - Psi(s)) = +5.850e-05 (must be >= 0) | samples 2000000
+eig(Gamma) = [0.5 9.5]  gamma0*umin = 1.0
+clipping:             w^T Gamma clip(-s w), s->inf = 15.9957
+direction-preserving: w^T Gamma sigma(-s w), s->inf = -5.268

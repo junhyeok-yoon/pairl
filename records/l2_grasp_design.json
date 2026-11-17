@@ -1,0 +1,454 @@
+{
+ "l2_pilotO_NH:200": {
+  "deterministic": {
+   "grasp": 0.1640625,
+   "by_height": [
+    {
+     "height": [
+      -9,
+      0.121
+     ],
+     "n": 85,
+     "grasp": 0.23529411764705882,
+     "decisions_within_10cm": 2604,
+     "decisions_within_2cm": 547,
+     "tip_speed_within_10cm": 0.04327470980446193,
+     "joint_speed_within_10cm": 0.39838910020331797,
+     "joint_speed_within_2cm": 0.38331672635124614,
+     "slow_share_within_2cm": 0.027422303473491772,
+     "hand_error_within_10cm": 0.8767709984765826,
+     "gravity_load_ratio_within_10cm": 0.1236242238026875,
+     "joint_gauge_within_10cm": 0.701766063836406,
+     "stiffness_within_10cm": [
+      194.8,
+      84.2,
+      32.6
+     ],
+     "dp_within_10cm": 0.024168550064946264,
+     "min_dist_median": 0.018472778785568727
+    },
+    {
+     "height": [
+      0.121,
+      0.248
+     ],
+     "n": 86,
+     "grasp": 0.1744186046511628,
+     "decisions_within_10cm": 2760,
+     "decisions_within_2cm": 299,
+     "tip_speed_within_10cm": 0.05512467330321437,
+     "joint_speed_within_10cm": 0.42222113996577787,
+     "joint_speed_within_2cm": 0.28759113344723697,
+     "slow_share_within_2cm": 0.05351170568561873,
+     "hand_error_within_10cm": 0.7756678891601883,
+     "gravity_load_ratio_within_10cm": 0.1297267181067053,
+     "joint_gauge_within_10cm": 0.6798976903788274,
+     "stiffness_within_10cm": [
+      191.0,
+      84.8,
+      31.5
+     ],
+     "dp_within_10cm": 0.024822787134562672,
+     "min_dist_median": 0.019987231566461573
+    },
+    {
+     "height": [
+      0.248,
+      9
+     ],
+     "n": 85,
+     "grasp": 0.08235294117647059,
+     "decisions_within_10cm": 2845,
+     "decisions_within_2cm": 127,
+     "tip_speed_within_10cm": 0.06333582622646944,
+     "joint_speed_within_10cm": 0.4215271023615443,
+     "joint_speed_within_2cm": 0.28177938579054884,
+     "slow_share_within_2cm": 0.05511811023622047,
+     "hand_error_within_10cm": 0.6774138943676857,
+     "gravity_load_ratio_within_10cm": 0.1243657947467102,
+     "joint_gauge_within_10cm": 0.6629200051464099,
+     "stiffness_within_10cm": [
+      196.6,
+      83.0,
+      32.3
+     ],
+     "dp_within_10cm": 0.023875100748704997,
+     "min_dist_median": 0.03171517792192079
+    }
+   ],
+   "decisions_within_5cm_per_episode": 17.01171875,
+   "decisions_within_2cm_per_episode": 3.80078125,
+   "grasps_per_episode": 0.1640625,
+   "speed_term_audit": {
+    "kappa_0.25": {
+     "share_of_phase1_free_decisions_with_term": 0.41803697273005824,
+     "added_rate_mean_where_active": 0.16613361749657726,
+     "added_over_distance_rate_phase1": 0.11553271374417992,
+     "added_per_episode_mean": 0.16711928726740977,
+     "max_rate_inside_ring": 0.75,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_0.5": {
+     "share_of_phase1_free_decisions_with_term": 0.41803697273005824,
+     "added_rate_mean_where_active": 0.3322672349931545,
+     "added_over_distance_rate_phase1": 0.23106542748835984,
+     "added_per_episode_mean": 0.33423857453481953,
+     "max_rate_inside_ring": 1.5,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_1.0": {
+     "share_of_phase1_free_decisions_with_term": 0.41803697273005824,
+     "added_rate_mean_where_active": 0.664534469986309,
+     "added_over_distance_rate_phase1": 0.4621308549767197,
+     "added_per_episode_mean": 0.6684771490696391,
+     "max_rate_inside_ring": 3.0,
+     "distance_rate_at_ring": 0.5
+    }
+   }
+  },
+  "fully_sampled": {
+   "grasp": 0.15234375,
+   "by_height": [
+    {
+     "height": [
+      -9,
+      0.121
+     ],
+     "n": 85,
+     "grasp": 0.2,
+     "decisions_within_10cm": 2613,
+     "decisions_within_2cm": 522,
+     "tip_speed_within_10cm": 0.07235054954285358,
+     "joint_speed_within_10cm": 0.43087344854095944,
+     "joint_speed_within_2cm": 0.3806617999798281,
+     "slow_share_within_2cm": 0.038314176245210725,
+     "hand_error_within_10cm": 0.89965727513605,
+     "gravity_load_ratio_within_10cm": 0.12360778475877862,
+     "joint_gauge_within_10cm": 0.7011316104073068,
+     "stiffness_within_10cm": [
+      194.5,
+      84.5,
+      33.0
+     ],
+     "dp_within_10cm": 0.027592723190849242,
+     "min_dist_median": 0.019543114059776205
+    },
+    {
+     "height": [
+      0.121,
+      0.248
+     ],
+     "n": 86,
+     "grasp": 0.18604651162790697,
+     "decisions_within_10cm": 2716,
+     "decisions_within_2cm": 282,
+     "tip_speed_within_10cm": 0.08355917302056184,
+     "joint_speed_within_10cm": 0.48262335810699775,
+     "joint_speed_within_2cm": 0.3420636511585351,
+     "slow_share_within_2cm": 0.05673758865248227,
+     "hand_error_within_10cm": 0.7858160161732266,
+     "gravity_load_ratio_within_10cm": 0.1296757976776442,
+     "joint_gauge_within_10cm": 0.6747205563418331,
+     "stiffness_within_10cm": [
+      192.9,
+      82.1,
+      32.6
+     ],
+     "dp_within_10cm": 0.031173516300309772,
+     "min_dist_median": 0.02001146721000183
+    },
+    {
+     "height": [
+      0.248,
+      9
+     ],
+     "n": 85,
+     "grasp": 0.07058823529411765,
+     "decisions_within_10cm": 2789,
+     "decisions_within_2cm": 143,
+     "tip_speed_within_10cm": 0.09213538170589264,
+     "joint_speed_within_10cm": 0.4730196104489155,
+     "joint_speed_within_2cm": 0.3392809645691645,
+     "slow_share_within_2cm": 0.04895104895104895,
+     "hand_error_within_10cm": 0.7041229283930843,
+     "gravity_load_ratio_within_10cm": 0.12440125419038622,
+     "joint_gauge_within_10cm": 0.6519532557912979,
+     "stiffness_within_10cm": [
+      200.3,
+      82.7,
+      32.9
+     ],
+     "dp_within_10cm": 0.02943407032490881,
+     "min_dist_median": 0.03092885000564662
+    }
+   ],
+   "decisions_within_5cm_per_episode": 17.00390625,
+   "decisions_within_2cm_per_episode": 3.69921875,
+   "grasps_per_episode": 0.15234375,
+   "speed_term_audit": {
+    "kappa_0.25": {
+     "share_of_phase1_free_decisions_with_term": 0.4233584061801179,
+     "added_rate_mean_where_active": 0.17280501196852166,
+     "added_over_distance_rate_phase1": 0.11625042123766922,
+     "added_per_episode_mean": 0.1731849926243197,
+     "max_rate_inside_ring": 0.75,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_0.5": {
+     "share_of_phase1_free_decisions_with_term": 0.4233584061801179,
+     "added_rate_mean_where_active": 0.3456100239370433,
+     "added_over_distance_rate_phase1": 0.23250084247533845,
+     "added_per_episode_mean": 0.3463699852486394,
+     "max_rate_inside_ring": 1.5,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_1.0": {
+     "share_of_phase1_free_decisions_with_term": 0.4233584061801179,
+     "added_rate_mean_where_active": 0.6912200478740866,
+     "added_over_distance_rate_phase1": 0.4650016849506769,
+     "added_per_episode_mean": 0.6927399704972788,
+     "max_rate_inside_ring": 3.0,
+     "distance_rate_at_ring": 0.5
+    }
+   }
+  },
+  "near_starts": {
+   "n": 256,
+   "start_margin_min": 0.139218793446222,
+   "start_margin_median": 0.6186155917135633,
+   "start_inside_box_share": 1.0,
+   "grasp": 0.21875,
+   "decisions_within_2cm_per_episode": 4.125,
+   "slow_share_within_2cm": 0.05303030303030303,
+   "joint_speed_within_2cm": 0.2901231701961185,
+   "phase1_cost_mean": 0.8728559126225821
+  },
+  "device": "cpu:0"
+ },
+ "l2_pilotO_C:200": {
+  "deterministic": {
+   "grasp": 0.0234375,
+   "by_height": [
+    {
+     "height": [
+      -9,
+      0.121
+     ],
+     "n": 85,
+     "grasp": 0.03529411764705882,
+     "decisions_within_10cm": 2584,
+     "decisions_within_2cm": 215,
+     "tip_speed_within_10cm": 0.07261475210817281,
+     "joint_speed_within_10cm": 0.41588703529741444,
+     "joint_speed_within_2cm": 0.5047702196069144,
+     "slow_share_within_2cm": 0.013953488372093023,
+     "hand_error_within_10cm": 0.6181315782694123,
+     "gravity_load_ratio_within_10cm": 0.12297034172453261,
+     "joint_gauge_within_10cm": 0.6975832650741667,
+     "stiffness_within_10cm": [
+      182.7,
+      79.9,
+      35.6
+     ],
+     "dp_within_10cm": 0.030108886879670324,
+     "min_dist_median": 0.029378856504509106
+    },
+    {
+     "height": [
+      0.121,
+      0.248
+     ],
+     "n": 86,
+     "grasp": 0.03488372093023256,
+     "decisions_within_10cm": 2689,
+     "decisions_within_2cm": 150,
+     "tip_speed_within_10cm": 0.10093935559823602,
+     "joint_speed_within_10cm": 0.4405035667486398,
+     "joint_speed_within_2cm": 0.39647131123459267,
+     "slow_share_within_2cm": 0.03333333333333333,
+     "hand_error_within_10cm": 0.6522071302112097,
+     "gravity_load_ratio_within_10cm": 0.12752920589852537,
+     "joint_gauge_within_10cm": 0.6589688504843804,
+     "stiffness_within_10cm": [
+      174.2,
+      76.6,
+      32.2
+     ],
+     "dp_within_10cm": 0.033045499374981115,
+     "min_dist_median": 0.040810419876131696
+    },
+    {
+     "height": [
+      0.248,
+      9
+     ],
+     "n": 85,
+     "grasp": 0.0,
+     "decisions_within_10cm": 2802,
+     "decisions_within_2cm": 50,
+     "tip_speed_within_10cm": 0.13225839551510468,
+     "joint_speed_within_10cm": 0.47304283087290777,
+     "joint_speed_within_2cm": 0.48006592819038596,
+     "slow_share_within_2cm": 0.0,
+     "hand_error_within_10cm": 0.6331370326002497,
+     "gravity_load_ratio_within_10cm": 0.12329235080648418,
+     "joint_gauge_within_10cm": 0.6252609097864605,
+     "stiffness_within_10cm": [
+      178.6,
+      75.2,
+      32.2
+     ],
+     "dp_within_10cm": 0.033284155358399514,
+     "min_dist_median": 0.04524293585271274
+    }
+   ],
+   "decisions_within_5cm_per_episode": 6.8203125,
+   "decisions_within_2cm_per_episode": 1.62109375,
+   "grasps_per_episode": 0.0234375,
+   "speed_term_audit": {
+    "kappa_0.25": {
+     "share_of_phase1_free_decisions_with_term": 0.16304239896733194,
+     "added_rate_mean_where_active": 0.18207429469928105,
+     "added_over_distance_rate_phase1": 0.042408226366074456,
+     "added_per_episode_mean": 0.07462424879562578,
+     "max_rate_inside_ring": 0.75,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_0.5": {
+     "share_of_phase1_free_decisions_with_term": 0.16304239896733194,
+     "added_rate_mean_where_active": 0.3641485893985621,
+     "added_over_distance_rate_phase1": 0.08481645273214891,
+     "added_per_episode_mean": 0.14924849759125156,
+     "max_rate_inside_ring": 1.5,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_1.0": {
+     "share_of_phase1_free_decisions_with_term": 0.16304239896733194,
+     "added_rate_mean_where_active": 0.7282971787971242,
+     "added_over_distance_rate_phase1": 0.16963290546429782,
+     "added_per_episode_mean": 0.2984969951825031,
+     "max_rate_inside_ring": 3.0,
+     "distance_rate_at_ring": 0.5
+    }
+   }
+  },
+  "fully_sampled": {
+   "grasp": 0.01171875,
+   "by_height": [
+    {
+     "height": [
+      -9,
+      0.121
+     ],
+     "n": 85,
+     "grasp": 0.011764705882352941,
+     "decisions_within_10cm": 2523,
+     "decisions_within_2cm": 195,
+     "tip_speed_within_10cm": 0.11025394843510626,
+     "joint_speed_within_10cm": 0.46530639855476597,
+     "joint_speed_within_2cm": 0.5425251883273714,
+     "slow_share_within_2cm": 0.0,
+     "hand_error_within_10cm": 0.636600925679372,
+     "gravity_load_ratio_within_10cm": 0.12343728840557103,
+     "joint_gauge_within_10cm": 0.6888189527212232,
+     "stiffness_within_10cm": [
+      183.0,
+      80.8,
+      35.4
+     ],
+     "dp_within_10cm": 0.03560435505168052,
+     "min_dist_median": 0.029156927720812936
+    },
+    {
+     "height": [
+      0.121,
+      0.248
+     ],
+     "n": 86,
+     "grasp": 0.023255813953488372,
+     "decisions_within_10cm": 2608,
+     "decisions_within_2cm": 165,
+     "tip_speed_within_10cm": 0.1250820395926009,
+     "joint_speed_within_10cm": 0.4798963325168152,
+     "joint_speed_within_2cm": 0.4228529351409044,
+     "slow_share_within_2cm": 0.012121212121212121,
+     "hand_error_within_10cm": 0.6902969697410692,
+     "gravity_load_ratio_within_10cm": 0.12730639778345598,
+     "joint_gauge_within_10cm": 0.6574112019007127,
+     "stiffness_within_10cm": [
+      180.5,
+      76.5,
+      33.9
+     ],
+     "dp_within_10cm": 0.03806887707287758,
+     "min_dist_median": 0.035132630439544135
+    },
+    {
+     "height": [
+      0.248,
+      9
+     ],
+     "n": 85,
+     "grasp": 0.0,
+     "decisions_within_10cm": 2695,
+     "decisions_within_2cm": 35,
+     "tip_speed_within_10cm": 0.17426282860326578,
+     "joint_speed_within_10cm": 0.5579864009750246,
+     "joint_speed_within_2cm": 0.6693248548783903,
+     "slow_share_within_2cm": 0.0,
+     "hand_error_within_10cm": 0.694160605371189,
+     "gravity_load_ratio_within_10cm": 0.12406055215041255,
+     "joint_gauge_within_10cm": 0.6177998115445024,
+     "stiffness_within_10cm": [
+      181.7,
+      76.6,
+      33.2
+     ],
+     "dp_within_10cm": 0.042085928611087946,
+     "min_dist_median": 0.036470334683793966
+    }
+   ],
+   "decisions_within_5cm_per_episode": 8.1328125,
+   "decisions_within_2cm_per_episode": 1.54296875,
+   "grasps_per_episode": 0.01171875,
+   "speed_term_audit": {
+    "kappa_0.25": {
+     "share_of_phase1_free_decisions_with_term": 0.20085385226370134,
+     "added_rate_mean_where_active": 0.1663215178629205,
+     "added_over_distance_rate_phase1": 0.04805430964187884,
+     "added_per_episode_mean": 0.08585205466125169,
+     "max_rate_inside_ring": 0.75,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_0.5": {
+     "share_of_phase1_free_decisions_with_term": 0.20085385226370134,
+     "added_rate_mean_where_active": 0.332643035725841,
+     "added_over_distance_rate_phase1": 0.09610861928375768,
+     "added_per_episode_mean": 0.17170410932250338,
+     "max_rate_inside_ring": 1.5,
+     "distance_rate_at_ring": 0.5
+    },
+    "kappa_1.0": {
+     "share_of_phase1_free_decisions_with_term": 0.20085385226370134,
+     "added_rate_mean_where_active": 0.665286071451682,
+     "added_over_distance_rate_phase1": 0.19221723856751535,
+     "added_per_episode_mean": 0.34340821864500676,
+     "max_rate_inside_ring": 3.0,
+     "distance_rate_at_ring": 0.5
+    }
+   }
+  },
+  "near_starts": {
+   "n": 256,
+   "start_margin_min": 0.139218793446222,
+   "start_margin_median": 0.6186155917135633,
+   "start_inside_box_share": 1.0,
+   "grasp": 0.05078125,
+   "decisions_within_2cm_per_episode": 1.421875,
+   "slow_share_within_2cm": 0.027472527472527472,
+   "joint_speed_within_2cm": 0.33876803470731315,
+   "phase1_cost_mean": 1.2228941688236077
+  },
+  "device": "cpu:0"
+ }
+}

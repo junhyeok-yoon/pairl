@@ -1,0 +1,54 @@
+{
+ "two_link_arm": {
+  "authority_min_margin": 11.502950083311484,
+  "authority_fraction_positive": 1.0,
+  "componentwise_push0.3": {
+   "worst_measure": 0.9391675592597238,
+   "joint_violation_samples": 0
+  },
+  "componentwise_push0.6": {
+   "worst_measure": 0.9391675592597238,
+   "joint_violation_samples": 0
+  },
+  "gauge_push0.3": {
+   "worst_measure": 0.9439840668567943,
+   "joint_violation_samples": 0
+  },
+  "gauge_push0.6": {
+   "worst_measure": 0.9439840668567943,
+   "joint_violation_samples": 0
+  }
+ },
+ "strong_coupling": {
+  "authority_min_margin": -6.124316089348169,
+  "authority_fraction_positive": 0.97445,
+  "componentwise_push0.3": {
+   "worst_measure": 2.090701449518292,
+   "joint_violation_samples": 143319
+  },
+  "componentwise_push0.6": {
+   "worst_measure": 2.1119155182078395,
+   "joint_violation_samples": 158999
+  },
+  "gauge_push0.3": {
+   "worst_measure": 2.182124349337031,
+   "joint_violation_samples": 99955
+  },
+  "gauge_push0.6": {
+   "worst_measure": 2.1868862860339564,
+   "joint_violation_samples": 110885
+  }
+ },
+ "weak_two_link": {
+  "authority_min_margin": -12.405830494597504,
+  "authority_fraction_positive": 0.8276,
+  "componentwise_push0.6": {
+   "worst_measure": 6.031737361308982,
+   "joint_violation_samples": 1426920
+  },
+  "gauge_push0.6": {
+   "worst_measure": 8.613708608070883,
+   "joint_violation_samples": 1404428
+  }
+ }
+}

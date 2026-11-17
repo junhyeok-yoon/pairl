@@ -1,0 +1,6 @@
+A wide 0.264 0.964 0.0 | narrow seed0 0.26 0.97 | oracle 0.347 1.119
+B wide 0.13 0.752 0.0 | narrow seed0 0.13 0.745 | oracle 0.149 0.856
+C wide 0.337 1.89 0.0 | narrow seed0 0.329 1.911 | oracle 0.365 2.119
+D wide 0.243 1.705 0.0 | narrow seed0 0.236 1.671 | oracle 0.232 1.878
+E wide 0.424 2.522 0.0 | narrow seed0 0.439 2.514 | oracle 0.398 2.544
+done

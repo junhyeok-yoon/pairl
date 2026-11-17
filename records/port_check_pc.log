@@ -1,0 +1,19 @@
+# this PC, repository code, 2026-11-15; CPU: JAX_PLATFORMS=cpu python script/port_check.py ref=pc bench=1 sizes=64,256,1024
+jax 0.12.0.1 devices [CpuDevice(id=0)] x64 True
+start 0 vs pc baseline: mean cost 17.373252 (baseline 17.373252, difference 0.000e+00), relative difference per episode mean 0.00e+00 max 0.00e+00, episodes above 1e-6: 0, bit-identical 64/64, time incl. compile 6.0 s
+start 2 vs pc baseline: mean cost 6.421073 (baseline 6.421073, difference 0.000e+00), relative difference per episode mean 0.00e+00 max 0.00e+00, episodes above 1e-6: 0, bit-identical 64/64, time incl. compile 5.9 s
+start 3 vs pc baseline: mean cost 4.681267 (baseline 4.681267, difference 0.000e+00), relative difference per episode mean 0.00e+00 max 0.00e+00, episodes above 1e-6: 0, bit-identical 64/64, time incl. compile 3.9 s
+REPRODUCTION vs pc baseline EXACT (all 192 episode costs bit-identical)
+bench n=64: first call 3.9 s (compile), then 3.95 s per batch, 2959 decisions/s, 16.2 episodes/s
+bench n=256: first call 15.6 s (compile), then 13.49 s per batch, 3434 decisions/s, 19.0 episodes/s
+bench n=1024: first call 54.0 s (compile), then 51.82 s per batch, 3559 decisions/s, 19.8 episodes/s
+# GPU: XLA_PYTHON_CLIENT_PREALLOCATE=false python script/port_check.py ref=pc bench=1 sizes=64,256,1024,4096
+jax 0.12.0.1 devices [CudaDevice(id=0)] x64 True
+start 0 vs pc baseline: mean cost 17.369957 (baseline 17.373252, difference -3.296e-03), relative difference per episode mean 3.68e-03 max 1.23e-01, episodes above 1e-6: 40, bit-identical 0/64, time incl. compile 11.8 s
+start 2 vs pc baseline: mean cost 6.421250 (baseline 6.421073, difference 1.766e-04), relative difference per episode mean 4.20e-05 max 2.01e-03, episodes above 1e-6: 5, bit-identical 1/64, time incl. compile 7.7 s
+start 3 vs pc baseline: mean cost 4.681267 (baseline 4.681267, difference 2.025e-13), relative difference per episode mean 1.88e-13 max 6.74e-12, episodes above 1e-6: 0, bit-identical 0/64, time incl. compile 4.9 s
+REPRODUCTION vs pc baseline NOT BIT-IDENTICAL (1/192 bit-identical)
+bench n=64: first call 4.8 s (compile), then 4.85 s per batch, 2407 decisions/s, 13.2 episodes/s
+bench n=256: first call 12.6 s (compile), then 5.05 s per batch, 9174 decisions/s, 50.7 episodes/s
+bench n=1024: first call 13.0 s (compile), then 5.75 s per batch, 32047 decisions/s, 177.9 episodes/s
+bench n=4096: first call 18.3 s (compile), then 9.53 s per batch, 77532 decisions/s, 430.0 episodes/s

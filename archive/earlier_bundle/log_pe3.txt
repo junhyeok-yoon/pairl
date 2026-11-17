@@ -1,0 +1,5 @@
+A C1       rms 0.206 deg  tail 0.092  p95max 0.59  dtau 1.48 Nm  div 0%
+B C1       rms 0.492 deg  tail 0.299  p95max 1.15  dtau 1.90 Nm  div 25%
+C C1       rms 0.266 deg  tail 0.189  p95max 0.63  dtau 1.70 Nm  div 0%
+D C1       rms 0.163 deg  tail 0.093  p95max 0.53  dtau 1.40 Nm  div 0%
+done

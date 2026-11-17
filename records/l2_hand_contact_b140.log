@@ -1,0 +1,5 @@
+data: 6 batches in 114 s, contact share of valid steps 0.0552
+check: replay_loss (role weighting) and variant all (0.7366480448840207, 0.7366480448840207)
+all 10 res 1.621 loss 0.728 146 s
+all 20 res 2.060 loss 0.698 285 s
+all 30 res 2.101 loss 0.668 418 s

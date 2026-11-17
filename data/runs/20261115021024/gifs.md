@@ -1,0 +1,15 @@
+- `l2_diag_relzero_start0_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2963 kB
+- `l2_diag_relzero_start2_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1853 kB
+- `l2_diag_relzero_start3_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1012 kB
+- `l2_diag_cost13_start0_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2699 kB
+- `l2_diag_cost13_start2_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1804 kB
+- `l2_diag_cost13_start3_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1111 kB
+- `l2_diag_init1_rev14_start0_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2954 kB
+- `l2_diag_init1_rev14_start2_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1738 kB
+- `l2_diag_init1_rev14_start3_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1155 kB
+- `l2_diag_init1_rev13_start0_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2437 kB
+- `l2_diag_init1_rev13_start2_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1535 kB
+- `l2_diag_init1_rev13_start3_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1148 kB
+- `l2_diag_init1_rev14_vnorm_start0_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2494 kB
+- `l2_diag_init1_rev14_vnorm_start2_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1592 kB
+- `l2_diag_init1_rev14_vnorm_start3_it0040.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 835 kB

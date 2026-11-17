@@ -1,0 +1,6 @@
+- `l2_attempt1_start0_it0070.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 3016 kB
+- `l2_attempt1_start2_it0070.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1980 kB
+- `l2_attempt1_start3_it0070.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1135 kB
+- `l2_attempt1b_start0_it0100.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2412 kB
+- `l2_attempt1b_start2_it0100.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2019 kB
+- `l2_attempt1b_start3_it0100.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 995 kB

@@ -1,0 +1,18 @@
+in  xi 0: region 87088 | lam_nn min 0.1541 | nu_crit min 0.634 | mu(0.5) min 0.0587 | mu(0.8) min -0.0789 nonpositive 0.0091 | vc max 3.75 | a_box max 243 | a_relief max -60.4, slow -60.5 (median -113.8) | J max 1.140
+in  xi 1: region 87074 | lam_nn min 0.1208 | nu_crit min 0.773 | mu(0.5) min 0.0812 | mu(0.8) min -0.0127 nonpositive 0.0000 | vc max 3.55 | a_box max 195 | a_relief max -22.0, slow -22.1 (median -57.6) | J max 1.140
+ood xi 0: region 87147 | lam_nn min 0.1332 | nu_crit min 0.542 | mu(0.5) min 0.0240 | mu(0.8) min -0.1588 nonpositive 0.0104 | vc max 3.80 | a_box max 318 | a_relief max -44.8, slow -44.9 (median -114.6) | J max 1.182
+ood xi 1: region 86588 | lam_nn min 0.1061 | nu_crit min 1.003 | mu(0.5) min 0.0824 | mu(0.8) min 0.0379 nonpositive 0.0000 | vc max 3.73 | a_box max 162 | a_relief max -10.0, slow -11.1 (median -31.7) | J max 1.179
+mu_low_k2000_f60 {'no_drive': 0.1739, 'box_drive': None, 'reaction': 0.528}
+mu_low_k2000_f200 {'no_drive': 0.3761, 'box_drive': None, 'reaction': 0.8541}
+mu_low_k20000_f60 {'no_drive': 0.0748, 'box_drive': None, 'reaction': 0.1906}
+mu_low_k20000_f200 {'no_drive': 0.1802, 'box_drive': None, 'reaction': 0.3417}
+mu_low_k200000_f60 {'no_drive': 0.0285, 'box_drive': None, 'reaction': 0.0485}
+mu_low_k200000_f200 {'no_drive': 0.078, 'box_drive': None, 'reaction': 0.1093}
+mu_median_k2000_f60 {'no_drive': 0.3099, 'box_drive': None, 'reaction': 0.6931}
+mu_median_k2000_f200 {'no_drive': 0.6327, 'box_drive': None, 'reaction': 1.148}
+mu_median_k20000_f60 {'no_drive': 0.1449, 'box_drive': None, 'reaction': 0.2367}
+mu_median_k20000_f200 {'no_drive': 0.3202, 'box_drive': None, 'reaction': 0.4445}
+mu_median_k200000_f60 {'no_drive': 0.0606, 'box_drive': None, 'reaction': 0.0541}
+mu_median_k200000_f200 {'no_drive': 0.1504, 'box_drive': None, 'reaction': 0.1298}
+class constants in distribution {'mu_low': 0.0587, 'mu_median': 0.3469, 'vc': 3.7492, 'a_box': 243.1982, 'a_r': 22.1357, 'a_r_median': 57.574, 'J': 1.1401}
+present structure {'k2000': 164811.32038380153, 'k20000': 174389.5931615719, 'k200000': 241142.73096012027} {'F_a': 4144.605838916286, 'impact_k20000': 2188.832719564518}

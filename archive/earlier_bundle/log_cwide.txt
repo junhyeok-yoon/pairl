@@ -1,0 +1,1 @@
+trained widened law, exact matching, 6 tasks: max step increase of V -4.47e-05 ; min Hessian eigenvalue of H along trajectories 0.091

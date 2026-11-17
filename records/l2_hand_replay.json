@@ -1,0 +1,85 @@
+{
+ "start0": {
+  "steps": 289875,
+  "contact_share_of_steps": 0.049545493747304874,
+  "contact_rest_share_of_steps": 0.027715394566623544,
+  "hand100": {
+   "role_loss": 1.1529171833938603,
+   "share_contact": 0.12954460627703954,
+   "share_contact_rest": 0.021769430320095474,
+   "share_held": 0.6695760412836916,
+   "rmse_nocontact_rest": 1.1111366720418778,
+   "rmse_nocontact_motion": 2.135103112403894,
+   "rmse_contact_rest": 1.3544425481000821,
+   "rmse_contact_motion": 4.591558997664063,
+   "zmax_median": 1.9362081348585325
+  },
+  "hand140": {
+   "role_loss": 1.146143350980016,
+   "share_contact": 0.12437348739157834,
+   "share_contact_rest": 0.022528393395515642,
+   "share_held": 0.6736747340784335,
+   "rmse_nocontact_rest": 1.0953770272241288,
+   "rmse_nocontact_motion": 2.135172434670481,
+   "rmse_contact_rest": 1.3800437056797696,
+   "rmse_contact_motion": 4.420696543241111,
+   "zmax_median": 1.756820889748759
+  },
+  "hand200": {
+   "role_loss": 1.1880179691301693,
+   "share_contact": 0.09577441660808647,
+   "share_contact_rest": 0.015878621177255758,
+   "share_held": 0.5270520998878734,
+   "rmse_nocontact_rest": 1.112028436281431,
+   "rmse_nocontact_motion": 2.1210757603723174,
+   "rmse_contact_rest": 1.2205702156703278,
+   "rmse_contact_motion": 4.320275163670683,
+   "zmax_median": 2.2702187580595985
+  }
+ },
+ "start3": {
+  "steps": 144350,
+  "contact_share_of_steps": 0.16278489781780395,
+  "contact_rest_share_of_steps": 0.07493591963976447,
+  "hand100": {
+   "role_loss": 0.7471635919374673,
+   "share_contact": 0.3832280496131004,
+   "share_contact_rest": 0.14293660281861353,
+   "share_held": 0.929389130963027,
+   "rmse_nocontact_rest": 1.030639314110458,
+   "rmse_nocontact_motion": 3.135128820678166,
+   "rmse_contact_rest": 2.145742926324285,
+   "rmse_contact_motion": 5.078422568027288,
+   "zmax_median": 4.111887200527469
+  },
+  "hand140": {
+   "role_loss": 0.8161968134199938,
+   "share_contact": 0.3700107850578981,
+   "share_contact_rest": 0.13238007669121654,
+   "share_held": 0.9395254056392103,
+   "rmse_nocontact_rest": 0.996652652608879,
+   "rmse_nocontact_motion": 3.0988900346870394,
+   "rmse_contact_rest": 2.1469480070817997,
+   "rmse_contact_motion": 5.167775908533407,
+   "zmax_median": 3.23076390399997
+  },
+  "hand200": {
+   "role_loss": 0.6465727350734842,
+   "share_contact": 0.3958761210128672,
+   "share_contact_rest": 0.14986042009774833,
+   "share_held": 0.9139997308733667,
+   "rmse_nocontact_rest": 1.0156425013422667,
+   "rmse_nocontact_motion": 3.0157745530196616,
+   "rmse_contact_rest": 2.035265617187785,
+   "rmse_contact_motion": 4.835528347131697,
+   "zmax_median": 3.2417308358389847
+  }
+ },
+ "run": "l2_attempt3",
+ "brain_it": 200,
+ "hand_its": [
+  100,
+  140,
+  200
+ ]
+}

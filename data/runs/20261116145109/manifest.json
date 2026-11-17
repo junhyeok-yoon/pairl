@@ -1,0 +1,58 @@
+{
+ "timestamp": "20261116145109",
+ "purpose": "pilot L: transfer term L_tr in training (hand role)",
+ "plan": "records/l2_pilotL_plan.md",
+ "plan_sha256_prefix": "f42c54a3",
+ "plan_hash_file": "records/l2_pilotL_plan.hash",
+ "code": {
+  "git_commit": "81f2173d028a8e3b4028849b07c8b145954e4f21",
+  "dirty": true,
+  "diff_sha256": "5beafc9c067eb9da0b2dfdb76d4193d75b35a69b677f0dfe49c311e1f97d8a89",
+  "note": "hash of the diff against HEAD and of the untracked files of the training path (CODE in pairl.tools.runs)"
+ },
+ "platform": {
+  "device": "GPU",
+  "jax_device": "cuda:0",
+  "device_kind": "NVIDIA GeForce RTX 5080",
+  "cpu": "Intel(R) Core(TM) Ultra 9 285K",
+  "host": "junhyeok",
+  "python": "3.13.18",
+  "jax": "0.12.0.1",
+  "x64": true,
+  "xla_flags": "--xla_gpu_deterministic_ops=true"
+ },
+ "commands": [
+  "python script/l2_train.py group=new l2_pilotLd_C 60 1024 6144 data/runs/20261116012508/l2_pilotO_NH/params_it0200.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 plan=records/l2_pilotL_plan.md 'purpose=pilot L: transfer term L_tr in training (hand role)'",
+  "python script/l2_train.py group=20261116145109 l2_pilotLd_L1 60 1024 6144 data/runs/20261116012508/l2_pilotO_NH/params_it0200.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 plan=records/l2_pilotL_plan.md 'purpose=pilot L: transfer term L_tr in training (hand role)' ltr=1",
+  "python script/l2_train.py group=20261116145109 l2_pilotLd_L05 60 1024 6144 data/runs/20261116012508/l2_pilotO_NH/params_it0200.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 plan=records/l2_pilotL_plan.md 'purpose=pilot L: transfer term L_tr in training (hand role)' ltr=0.5"
+ ],
+ "runs": {
+  "l2_pilotLd_C": {
+   "start": "2026-11-16T14:51:09",
+   "end": "2026-11-16T15:28:53",
+   "status": "complete",
+   "plan_sha256_prefix": "f42c54a3"
+  },
+  "l2_pilotLd_L1": {
+   "start": "2026-11-16T15:30:37",
+   "end": "2026-11-16T16:08:19",
+   "status": "complete",
+   "plan_sha256_prefix": "f42c54a3"
+  },
+  "l2_pilotLd_L05": {
+   "start": "2026-11-16T16:10:05",
+   "end": "2026-11-16T16:49:33",
+   "status": "complete",
+   "plan_sha256_prefix": "f42c54a3"
+  }
+ },
+ "start": "2026-11-16T14:51:09",
+ "end": "2026-11-16T16:49:33",
+ "status": "complete",
+ "key_result": "no L_tr arm adopted (role loss ratio 1.243, 1.205 > 1.10); residual 0.58-0.69 vs C 6.08; BASE = l2_pilotLd_C at 260",
+ "success": {
+  "checkpoint": "l2_pilotLd_L1:260",
+  "P1": 0.359375,
+  "full_chain": 0.0
+ }
+}

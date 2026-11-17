@@ -1,0 +1,6 @@
+PASS (a) phases 1-3 reproduce the unmodified sampling | 2212 decisions before phase 4 (valid), gripper, action, observation and log-probability bit-identical
+PASS (b) phase-4 log-probability = logp_mix(0.05), phases 1-3 = logp_of | phase 4: max |recorded - logp_mix| 9.8e-15 over 1308 decisions (against logp_of 1.834); phases 1-3: max |recorded - logp_of| 4.4e-15 over 2212
+PASS (b) phase-4 gripper frequency = mean p' | share psi=1 0.6965, mean p' 0.6932 (4 sd 0.0453)
+PASS (c) ppo_loss_i uses the sampled distribution | approximate KL -1.1e-17, clipped share 0.0 over 3520 decisions (1308 in phase 4)
+all passed
+REPRODUCTION vs pc baseline EXACT (all 192 episode costs bit-identical)

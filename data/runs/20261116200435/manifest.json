@@ -1,0 +1,44 @@
+{
+ "timestamp": "20261116200435",
+ "purpose": "pilot L amendment 2: L_tr weight 0.25 (hand role)",
+ "plan": "records/l2_pilotL_plan.md",
+ "plan_sha256_prefix": "05f942f7",
+ "plan_hash_file": "records/l2_pilotL_plan.hash",
+ "code": {
+  "git_commit": "81f2173d028a8e3b4028849b07c8b145954e4f21",
+  "dirty": true,
+  "diff_sha256": "9e93ab0996ec8d5d5cd661f99f4d37b61a35d0cb9ad2643bfeaa4872afa69255",
+  "note": "hash of the diff against HEAD and of the untracked files of the training path (CODE in pairl.tools.runs)"
+ },
+ "platform": {
+  "device": "GPU",
+  "jax_device": "cuda:0",
+  "device_kind": "NVIDIA GeForce RTX 5080",
+  "cpu": "Intel(R) Core(TM) Ultra 9 285K",
+  "host": "junhyeok",
+  "python": "3.13.18",
+  "jax": "0.12.0.1",
+  "x64": true,
+  "xla_flags": "--xla_gpu_deterministic_ops=true"
+ },
+ "commands": [
+  "python script/l2_train.py group=new l2_pilotLd_L025 60 1024 6144 data/runs/20261116012508/l2_pilotO_NH/params_it0200.pkl restart=0.5 eval_restart=1 mb_scale=1 c_ent=1e-2 ltr=0.25 plan=records/l2_pilotL_plan.md 'purpose=pilot L amendment 2: L_tr weight 0.25 (hand role)'"
+ ],
+ "runs": {
+  "l2_pilotLd_L025": {
+   "start": "2026-11-16T20:04:35",
+   "end": "2026-11-16T20:44:01",
+   "status": "complete",
+   "plan_sha256_prefix": "05f942f7"
+  }
+ },
+ "start": "2026-11-16T20:04:35",
+ "end": "2026-11-16T20:44:01",
+ "status": "complete",
+ "key_result": "L025 not adopted: role loss ratio 1.177 > 1.10; residual 0.863 vs C 6.081; chain stops before attempt 4",
+ "success": {
+  "checkpoint": "l2_pilotLd_L025:260",
+  "P1": 0.29296875,
+  "full_chain": 0.0
+ }
+}

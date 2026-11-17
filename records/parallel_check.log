@@ -1,0 +1,30 @@
+# Parallel CPU rollouts (script/parallel_run.py, src/pairl/tools/parallel.py) on this PC, 2026-11-15/16. Not registered; descriptive. No training.
+# Checkpoint: data/runs/20261115134229/l2_attempt3/params_it0300.pkl (then data/runs/l2_attempt3); reference: records/port_check_pc_baseline.json (192 episode costs).
+
+## Bit identity of the per-episode port-check costs when the 64 episodes of each start are run in chunks of size S (single process, CPU)
+S = 64 (unsplit), 32, 16, 8, 6, 5, 4, 2: 192/192 bit-identical
+S = 7 and S = 3: 189/192 bit-identical (one episode per start differs; max relative difference 2.94e-10)
+S = 1: 1/192 bit-identical (max relative difference 1.24e-01, 38 episodes above 1e-6 at start 0)
+The launcher allows S in {2, 4, 8, 16, 32, 64}.
+Workers pinned to one core each with --xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1: port_check ref=pc EXACT (192/192).
+Launcher, port_check ref=pc: EXACT (192/192) with 1, 4, 6, 8, 16 and 24 workers, chunk auto and chunk 2, 8, 16, 32, 64.
+
+## Throughput (port_check bench, sampled rollouts from the training pool, s per batch after compilation)
+single process CPU:            n=64 3.95 s (2959 decisions/s), n=256 13.49 s (3434), n=1024 51.82 s (3559)
+launcher, 16 workers (default under a 20 GB cap), chunk auto:
+                               n=64 0.70 s (16782 decisions/s), n=256 1.43 s (32292), n=1024 4.84 s (38077)
+launcher, 24 workers, chunk auto (22 GB cap, worker charge lowered by hand): n=1024 3.63-3.97 s (46708-51143 decisions/s)
+speedup over one process at n=1024: 10.7x with 16 workers, 13.1-14.4x with 24 workers
+GPU (single process, for comparison): n=64 4.85 s (2407), n=256 5.05 s (9174), n=1024 5.75 s (32047), n=4096 9.53 s (77532)
+
+## Memory (cgroup memory.peak of the systemd unit, script/safe_run.sh)
+single process CPU: n=256 2.1 GB, n=1024 2.8 GB
+launcher n=1024: 8 workers 8.5 GB, 16 workers 16.0 GB, 24 workers 19.4 GB; 8 workers n=4096 13.6 GB
+per worker about 0.7 GB; parent about 2.8 GB plus the output (about 0.83 MB per episode)
+24 workers with bench n=1024 and n=4096 in one run reached the 22 GB cap and the unit was killed alone (desktop unaffected).
+
+## Incident 2026-11-15 23:50
+An unconfined launcher run (24 workers, n up to 4096, outputs concatenated in several copies): the killed python process held 12.2 GB (kernel log); with the workers this exhausted
+the 31 GB of RAM, and the kernel OOM killer stopped the editor session as well. Since then every job runs under script/safe_run.sh (systemd unit with
+MemoryMax and no swap, lower CPU and IO weight), the launcher writes chunk results into one preallocated output, refuses outputs above max_out_gb
+(default 4 GB) and limits the workers to the memory budget (cgroup limit or MemAvailable minus 4 GB).

@@ -1,0 +1,5 @@
+A pH       rms 0.140 deg  tail 0.127  p95max 0.41  dtau 0.86 Nm  div 0%
+B pH       rms 0.342 deg  tail 0.317  p95max 1.00  dtau 1.41 Nm  div 0%
+C pH       rms 0.185 deg  tail 0.169  p95max 0.81  dtau 1.24 Nm  div 0%
+D pH       rms 0.154 deg  tail 0.139  p95max 0.46  dtau 0.78 Nm  div 0%
+done

@@ -1,0 +1,11 @@
+E1111 05:52:40.662665     310 slow_operation_alarm.cc:74] 
+********************************
+[Compiling module jit__lambda for CPU] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+E1111 05:52:40.823213     304 slow_operation_alarm.cc:141] The operation took 2m0.160677251s
+
+********************************
+[Compiling module jit__lambda for CPU] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+c1 {'gamma': 30.0, 'k': 40.0, 'gb': 100.0} 2.547e-04
+c1 {'gamma': 30.0, 'k': 40.0, 'gb': 300.0} 2.543e-04

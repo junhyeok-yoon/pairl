@@ -1,0 +1,17 @@
+A nominal  rms 1.374 deg  tail 1.407  p95max 2.56  dtau 1.50 Nm  div 0%
+A C0       rms 0.491 deg  tail 0.489  p95max 0.81  dtau 1.52 Nm  div 0%
+A C1       rms 0.127 deg  tail 0.074  p95max 0.42  dtau 1.49 Nm  div 0%
+A pH       rms 0.446 deg  tail 0.443  p95max 0.80  dtau 1.39 Nm  div 0%
+B nominal  rms 3.730 deg  tail 3.627  p95max 7.71  dtau 2.43 Nm  div 0%
+B C0       rms 1.124 deg  tail 1.158  p95max 1.93  dtau 2.33 Nm  div 0%
+B C1       rms 0.293 deg  tail 0.178  p95max 0.81  dtau 1.94 Nm  div 38%
+B pH       rms 0.985 deg  tail 0.995  p95max 1.74  dtau 1.89 Nm  div 0%
+C nominal  rms 2.142 deg  tail 2.083  p95max 5.11  dtau 1.76 Nm  div 0%
+C C0       rms 0.591 deg  tail 0.599  p95max 0.97  dtau 1.73 Nm  div 0%
+C C1       rms 0.172 deg  tail 0.124  p95max 0.54  dtau 1.72 Nm  div 0%
+C pH       rms 0.512 deg  tail 0.516  p95max 1.00  dtau 1.65 Nm  div 0%
+D nominal  rms 1.840 deg  tail 1.852  p95max 3.23  dtau 1.46 Nm  div 0%
+D C0       rms 0.547 deg  tail 0.489  p95max 0.86  dtau 1.47 Nm  div 0%
+D C1       rms 0.110 deg  tail 0.106  p95max 0.32  dtau 1.43 Nm  div 25%
+D pH       rms 0.500 deg  tail 0.456  p95max 0.78  dtau 1.33 Nm  div 0%
+done

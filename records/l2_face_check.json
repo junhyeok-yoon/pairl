@@ -1,0 +1,22 @@
+{
+ "l2_pilot_cost2_grip:130": {
+  "held_phase3_steps": 39775,
+  "inside": 0.9145191703331238,
+  "top": 0.0,
+  "side": 0.9145191703331238,
+  "side_depth_median": 0.20486637680216682,
+  "side_penetration_median": 0.004851710757201616,
+  "episodes_top": 0.0,
+  "episodes_side": 0.90625
+ },
+ "l2_pilot_v3:130": {
+  "held_phase3_steps": 47925,
+  "inside": 0.8395826812728221,
+  "top": 0.0059050599895670314,
+  "side": 0.8336776212832551,
+  "side_depth_median": 0.2049631280047431,
+  "side_penetration_median": 0.004860144194488769,
+  "episodes_top": 0.02564102564102564,
+  "episodes_side": 0.8461538461538461
+ }
+}

@@ -1,0 +1,8 @@
+120-60-25_in {'margin_free': 27.861951, 'margin_60': 27.45797, 'fstar_all': 79.196339, 'fstar_region': 79.196339, 'share_region': 0.436025}
+120-60-25_ood {'margin_free': 18.028137, 'margin_60': 7.397298, 'fstar_all': 71.794381, 'fstar_region': 73.425385, 'share_region': 0.4324}
+150-75-40_in {'margin_free': 40.529867, 'margin_60': 40.529867, 'fstar_all': 100.586419, 'fstar_region': 100.586419, 'share_region': 0.436025}
+150-75-40_ood {'margin_free': 27.568811, 'margin_60': 20.265392, 'fstar_all': 101.036035, 'fstar_region': 101.036035, 'share_region': 0.4324}
+180-90-50_in {'margin_free': 53.197782, 'margin_60': 53.197782, 'fstar_all': 120.07129, 'fstar_region': 121.482543, 'share_region': 0.436025}
+180-90-50_ood {'margin_free': 37.109484, 'margin_60': 29.669668, 'fstar_all': 119.814757, 'fstar_region': 119.814757, 'share_region': 0.4324}
+240-120-60_in {'margin_free': 78.533613, 'margin_60': 78.533613, 'fstar_all': 157.893102, 'fstar_region': 160.959119, 'share_region': 0.436025}
+240-120-60_ood {'margin_free': 56.190832, 'margin_60': 43.892388, 'fstar_all': 157.372203, 'fstar_region': 157.372203, 'share_region': 0.4324}

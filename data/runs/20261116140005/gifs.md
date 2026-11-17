@@ -1,0 +1,3 @@
+- `l2_pilotL_C_start0_it0260.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2517 kB
+- `l2_pilotL_C_start2_it0260.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1895 kB
+- `l2_pilotL_C_start3_it0260.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1091 kB

@@ -1,0 +1,41 @@
+# local-only material (bundle extract, baselines, scratch, temp)
+/_local/
+.venv/
+*.egg-info/
+*.zip
+/pairl_bundle/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# LaTeX build files (records/*.log are tracked, so the log rule is scoped to the notes)
+build/
+docs/notes/*.aux
+docs/notes/*.log
+docs/notes/*.out
+docs/notes/*.toc
+
+# checkpoints: never tracked (records/checkpoints.sha256 lists the ones needed for the tracked results)
+*.pkl
+# numpy archives above 5 MB are listed here by name (none at present; the records' *.npz are below 5 MB and tracked)
+
+# run outputs: only data/runs/INDEX.md and the PNG summaries at the top of each group folder
+data/runs/**
+!data/runs/
+!data/runs/INDEX.md
+!data/runs/*/
+!data/runs/*/*.png
+
+# media
+*.gif
+*.mp4
+docs/figures/rollouts/
+
+# lock files of concurrent record writers
+records/*.lock
+records/*.tmp
+!data/runs/*/*.md
+!data/runs/*/manifest.json

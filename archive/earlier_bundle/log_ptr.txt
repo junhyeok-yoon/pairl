@@ -1,0 +1,16 @@
+E1111 07:20:55.096201     192 slow_operation_alarm.cc:74] 
+********************************
+[Compiling module jit_step for CPU] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+E1111 07:21:46.176640     186 slow_operation_alarm.cc:141] The operation took 2m51.080531603s
+
+********************************
+[Compiling module jit_step for CPU] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+it   0 loss 2.419e-03 (218s)
+it   5 loss 7.050e-04 (240s)
+it  10 loss 6.551e-04 (262s)
+it  15 loss 4.440e-04 (284s)
+it  20 loss 3.862e-04 (307s)
+it  25 loss 3.874e-04 (330s)
+it  29 loss 3.643e-04 (348s)

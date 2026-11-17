@@ -1,0 +1,23 @@
+{
+ "l2_attempt1b:100": {
+  "held_phase2": 1,
+  "goal_tip_to_target_late": 0.27514684381188254,
+  "tip_to_target_late": 0.11793195455175222,
+  "goal_tip_to_tip_late": 0.15690590752764733,
+  "tip_to_target_start": 0.16325087587406625
+ },
+ "l2_pilot_cost2_grip:130": {
+  "held_phase2": 24,
+  "goal_tip_to_target_late": 0.39692431597280375,
+  "tip_to_target_late": 0.3316660312533966,
+  "goal_tip_to_tip_late": 0.23728530053411379,
+  "tip_to_target_start": 0.4014421912593673
+ },
+ "l2_pilot_v3:130": {
+  "held_phase2": 28,
+  "goal_tip_to_target_late": 0.38737738749468903,
+  "tip_to_target_late": 0.3283359716074321,
+  "goal_tip_to_tip_late": 0.2202054574797917,
+  "tip_to_target_start": 0.3949391711701501
+ }
+}

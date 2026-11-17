@@ -1,0 +1,172 @@
+{
+ "E_adv_block_Ra": {
+  "tc_ss": [
+   6.173,
+   6.909
+  ],
+  "tc_err": 3.9086,
+  "n_above_6_5": 3,
+  "mis_ss": [
+   1.4354,
+   4.1906
+  ],
+  "n_mis_above_0_3": 24,
+  "viol": 0,
+  "minT": 16.8228,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "E_adv_block_Rb": {
+  "tc_ss": [
+   6.265,
+   9.943
+  ],
+  "tc_err": 6.9431,
+  "n_above_6_5": 20,
+  "mis_ss": [
+   1.4559,
+   4.2129
+  ],
+  "n_mis_above_0_3": 24,
+  "viol": 0,
+  "minT": 16.7759,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "E_adv_ccap": {
+  "tc_ss": [
+   1.907,
+   4.561
+  ],
+  "tc_err": 1.5606,
+  "n_above_6_5": 0,
+  "mis_ss": [
+   1.4394,
+   4.0932
+  ],
+  "n_mis_above_0_3": 24,
+  "viol": 0,
+  "minT": 16.9575,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "E_adv_latch": {
+  "tc_ss": [
+   5.289,
+   9.363
+  ],
+  "tc_err": 6.3634,
+  "n_above_6_5": 4,
+  "mis_ss": [
+   1.4532,
+   4.192
+  ],
+  "n_mis_above_0_3": 24,
+  "viol": 0,
+  "minT": 16.7967,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "E_nom_ccap": {
+  "tc_ss": [
+   1.907,
+   3.017
+  ],
+  "tc_err": 1.0934,
+  "n_above_6_5": 0,
+  "mis_ss": [
+   1.4167,
+   4.0934
+  ],
+  "n_mis_above_0_3": 24,
+  "viol": 0,
+  "minT": 16.9358,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "E_nom_latch": {
+  "tc_ss": [
+   2.98,
+   3.021
+  ],
+  "tc_err": 0.0211,
+  "n_above_6_5": 0,
+  "mis_ss": [
+   1.4164,
+   4.1166
+  ],
+  "n_mis_above_0_3": 24,
+  "viol": 0,
+  "minT": 16.9356,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "Mp_adv_ccap": {
+  "tc_ss": [
+   5.971,
+   6.003
+  ],
+  "tc_err": 3.0029,
+  "n_above_6_5": 0,
+  "mis_ss": [
+   0.001,
+   0.0294
+  ],
+  "n_mis_above_0_3": 0,
+  "viol": 0,
+  "minT": 16.8581,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "Mp_adv_latch": {
+  "tc_ss": [
+   5.896,
+   8.883
+  ],
+  "tc_err": 5.8828,
+  "n_above_6_5": 22,
+  "mis_ss": [
+   0.001,
+   0.0089
+  ],
+  "n_mis_above_0_3": 0,
+  "viol": 0,
+  "minT": 16.7542,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "Mp_nom_ccap": {
+  "tc_ss": [
+   2.976,
+   3.014
+  ],
+  "tc_err": 0.0236,
+  "n_above_6_5": 0,
+  "mis_ss": [
+   0.0012,
+   0.0046
+  ],
+  "n_mis_above_0_3": 0,
+  "viol": 0,
+  "minT": 16.8768,
+  "n_minT_fail": 0,
+  "reached": 24
+ },
+ "Mp_nom_latch": {
+  "tc_ss": [
+   2.984,
+   3.021
+  ],
+  "tc_err": 0.0208,
+  "n_above_6_5": 0,
+  "mis_ss": [
+   0.0013,
+   0.0056
+  ],
+  "n_mis_above_0_3": 0,
+  "viol": 0,
+  "minT": 16.8919,
+  "n_minT_fail": 0,
+  "reached": 24
+ }
+}

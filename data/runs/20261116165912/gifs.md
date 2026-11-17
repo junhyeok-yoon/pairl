@@ -1,0 +1,15 @@
+- `l2_pilotG_C_start0_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2665 kB
+- `l2_pilotG_C_start2_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1896 kB
+- `l2_pilotG_C_start3_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1150 kB
+- `l2_pilotG_S_start0_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2400 kB
+- `l2_pilotG_S_start2_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1882 kB
+- `l2_pilotG_S_start3_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1344 kB
+- `l2_pilotG_S2_start0_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2743 kB
+- `l2_pilotG_S2_start2_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1963 kB
+- `l2_pilotG_S2_start3_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1239 kB
+- `l2_pilotG_B_start0_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2935 kB
+- `l2_pilotG_B_start2_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2074 kB
+- `l2_pilotG_B_start3_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1108 kB
+- `l2_pilotG_B_start0_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2935 kB
+- `l2_pilotG_B_start2_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 2074 kB
+- `l2_pilotG_B_start3_it0320.gif`: made 2026-11-16 on this PC's CPU (anim_rollout.py, deterministic, 4 evaluation episodes, frame stride 3), 1108 kB

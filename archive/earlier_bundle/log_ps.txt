@@ -1,0 +1,6 @@
+w0: finite True, V0 9.97, max step increase of V -2.63e-04, min D 4.72e+00, |q-qd| max in last 1 s 0.892 deg, start 14.54 deg
+w1: finite True, V0 -1.67e+04, max step increase of V -3.27e-04, min D -1.67e+04, |q-qd| max in last 1 s 2.057 deg, start 8.34 deg
+w2: finite True, V0 9.71, max step increase of V -2.79e-04, min D 5.06e+00, |q-qd| max in last 1 s 0.460 deg, start 11.39 deg
+w3: finite True, V0 -9.37e+04, max step increase of V -5.51e-04, min D -9.37e+04, |q-qd| max in last 1 s 0.881 deg, start 19.98 deg
+w4: finite True, V0 9.76, max step increase of V -2.14e-04, min D 3.93e+00, |q-qd| max in last 1 s 0.587 deg, start 12.04 deg
+w5: finite True, V0 10.2, max step increase of V -1.21e-04, min D 3.67e+00, |q-qd| max in last 1 s 1.145 deg, start 16.86 deg
